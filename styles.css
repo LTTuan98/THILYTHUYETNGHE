@@ -1,0 +1,205 @@
+/* Thêm gradient nhẹ cho nền */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #A2C2E4 0%, #D5E2F1 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    flex-direction: column;
+    
+}
+
+/* Container cho quiz */
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin-top: 50px;
+    overflow: auto;
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    color: #2C3E50;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* Các câu hỏi */
+.question {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 15px;
+}
+
+.question p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 500;
+    color: #5D6D7E;
+}
+
+/* Các tùy chọn câu trả lời */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.options label {
+    display: block;
+    background-color: #f1f3f6;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border: 1px solid #ddd;
+}
+
+.options label:hover {
+    background-color: #e1e8f0;
+    border-color: #3498db;
+}
+
+.options input[type="radio"] {
+    margin-right: 12px;
+}
+
+/* Các thông báo phản hồi */
+.feedback {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+/* Màu sắc cho đáp án đúng và sai */
+.correct {
+    color: #27ae60;
+    background-color: #e9f7ef;
+}
+
+.incorrect {
+    color: #e74c3c;
+    background-color: #fbe1e1;
+}
+
+/* Nút gửi bài luôn cố định ở trên cùng */
+.submit-btn {
+    position: fixed;
+    top: 20px;
+    left: 90%;
+    transform: translateX(-50%);
+    padding: 15px 25px;
+    background-color: #5D6D7E;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #4A5A65;
+}
+
+/* Khi không còn lựa chọn thay đổi */
+input[type="radio"]:disabled {
+    cursor: not-allowed;
+}
+
+.submit-btn:disabled {
+    background-color: #BDC3C7;
+    cursor: not-allowed;
+}
+
+/* Các hiệu ứng nhỏ */
+input[type="radio"]:focus {
+    outline: none;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #dfe6e9;
+    border-color: #3498db;
+}
+
+label.correct {
+    background-color: #e9f7ef;
+    border-color: #27ae60;
+}
+
+label.incorrect {
+    background-color: #fbe1e1;
+    border-color: #e74c3c;
+}
+
+
+
+/* Mobile (Điện thoại) */
+@media (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    .container {
+        padding: 15px;
+        width: 95%;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .question p {
+        font-size: 16px;
+    }
+
+    .submit-btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Tablet (Máy tính bảng) */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.2em;
+    }
+
+    .question p {
+        font-size: 17px;
+    }
+
+    .submit-btn {
+        padding: 14px 22px;
+        font-size: 17px;
+    }
+}
+
+/* Desktop (Máy tính để bàn) */
+@media (min-width: 1024px) {
+    .container {
+        width: 75%;
+    }
+
+    .submit-btn {
+        top: 30px; 
+    }
+}

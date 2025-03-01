@@ -1,0 +1,2193 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Thi Tin Học</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết tệp CSS -->
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bài Thi Tin Học</h1>
+        
+        <form id="quiz-form">
+            <div class="question">
+                <p>Câu 1: Bạn hiểu B-Virus là gì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="a"> a) Là một loại virus tin học chủ yếu lây lan vào ổ đĩa B</label>
+                    <label><input type="radio" name="q1" value="b"> b) Là một loại virus tin học chủ yếu lây lan vào các bộ trữ điện</label>
+                    <label><input type="radio" name="q1" value="c"> c) Là loại virus tin học chủ yếu lây lan vào các mẫu tin khởi động (Boot record)</label>
+                    <label><input type="radio" name="q1" value="d"> d) Là loại virus tin học chủ yếu lây lan vào các tệp của WinWord và Excel</label>
+                    <div class="feedback" id="feedback-q1"></div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Câu 2: Để máy tính có thể làm việc được, hệ điều hành cần nạp vào:</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="a"> a) Ram</label>
+                    <label><input type="radio" name="q2" value="b"> b) Bộ nhớ ngoài</label>
+                    <label><input type="radio" name="q2" value="c"> c) Chỉ nạp vào bộ nhớ trong khi chạy chương trình ứng dụng</label>
+                    <label><input type="radio" name="q2" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q2"></div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Câu 4: Khi đang làm việc với Windows, muốn khôi phục lại đối tượng đã xóa trong Recycle Bin, ta thực hiện:</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="a"> a) Chọn đối tượng, rồi chọn File– Copy</label>
+                    <label><input type="radio" name="q4" value="b"> b) Chọn đối tượng, rồi chọn File- Open</label>
+                    <label><input type="radio" name="q4" value="c"> c) Chọn đối tượng, rồi chọn File– Restore</label>
+                    <label><input type="radio" name="q4" value="d"> d) Chọn đối tượng, rồi chọn File- Move To Folder...</label>
+                    <div class="feedback" id="feedback-q4"></div>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>Câu 5: Khi đang làm việc với Windows, muốn xem tổ chức các tệp và thư mục trên đĩa, ta có thể sử dụng:</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="a"> a) My Computer hoặc Windows Explorer</label>
+                    <label><input type="radio" name="q5" value="b"> b) My Computer hoặc Recycle Bin</label>
+                    <label><input type="radio" name="q5" value="c"> c) Windows Explorer hoặc Recycle Bin</label>
+                    <label><input type="radio" name="q5" value="d"> d) My Computer hoặc My Network Places</label>
+                    <div class="feedback" id="feedback-q5"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 6: Trong Windows, khi xóa file hoặc folder thì nó được lưu trong Recycle Bin, muốn xóa hẳn file
+                    hoặc folder ta bấm tổ hợp phím ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="a"> a) Shift + Del</label>
+                    <label><input type="radio" name="q6" value="b"> b) Alt + Del</label>
+                    <label><input type="radio" name="q6" value="c"> c) Ctrl + Del</label>
+                    <label><input type="radio" name="q6" value="d"> d) Cả 3 câu đều sai</label>
+                    <div class="feedback" id="feedback-q6"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 7: Trong Windows, muốn tìm kiếm tệp hay thư mục, ta thực hiện:</p>
+                <div class="options">
+                    <label><input type="radio" name="q7" value="a"> a) File- Search</label>
+                    <label><input type="radio" name="q7" value="b"> b) Windows- Search</label>
+                    <label><input type="radio" name="q7" value="c"> c) Start- Search</label>
+                    <label><input type="radio" name="q7" value="d"> d) Tools– Search</label>
+                    <div class="feedback" id="feedback-q7"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 8: Trong Windows, ở cửa sổ Explore, để chọn một lúc các file hoặc folder nằm liền kề nhau trong một danh sách ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="a"> a) Giữ phím Ctrl và nháy chuột vào từng mục muốn chọn trong danh sách</label>
+                    <label><input type="radio" name="q8" value="b"> b) Giữ phím Alt và nháy chuột vào từng mục muốn chọn trong danh sách</label>
+                    <label><input type="radio" name="q8" value="c"> c) Nháy chuột ở mục đầu, ấn và giữ Shift nháy chuột ở mục cuối</label>
+                    <label><input type="radio" name="q8" value="d"> d) Giữ phím Tab và nháy chuột vào từng mục muốn chọn trong danh sách</label>
+                    <div class="feedback" id="feedback-q8"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 9: Bạn hiểu Virus tin học lây lan bằng cách nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="a"> a) Thông qua người sử dụng, khi dùng tây ẩm ướt sử dụng máy tính</label>
+                    <label><input type="radio" name="q9" value="b"> b) Thông qua hệ thống điện- khi sử dụng nhiều máy tính cùng một lúc</label>
+                    <label><input type="radio" name="q9" value="c"> c) Thông qua môi trường không khí- khi đặt những máy tính quá gần nhau</label>
+                    <label><input type="radio" name="q9" value="d"> d) Các câu trên đều sai</label>
+                    <div class="feedback" id="feedback-q9"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 10: Hệ điều hành là :</p>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="a"> a) Phần mềm ứng dụng</label>
+                    <label><input type="radio" name="q10" value="b"> b) Phần mềm hệ thống</label>
+                    <label><input type="radio" name="q10" value="c"> c) Phần mềm tiện ích</label>
+                    <label><input type="radio" name="q10" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q10"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 11: Các hệ điều hành thông dụng hiện nay thường được lưu trữ :</p>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="a"> a) Trong CPU</label>
+                    <label><input type="radio" name="q11" value="b"> b) Trong RAM</label>
+                    <label><input type="radio" name="q11" value="c"> c) Trên bộ nhớ ngoài</label>
+                    <label><input type="radio" name="q11" value="d"> d) Trong ROM</label>
+                    <div class="feedback" id="feedback-q11"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 12: Điều nào không đúng khi nói về điều kiện làm việc của nghề Tin học văn phòng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="a"> a) Làm việc trong nhà</label>
+                    <label><input type="radio" name="q12" value="b"> b) Ảnh hưởng thị lực</label>
+                    <label><input type="radio" name="q12" value="c"> c) Ảnh hưởng cột sống</label>
+                    <label><input type="radio" name="q12" value="d"> d) tiếp xúc độc hại</label>
+                    <div class="feedback" id="feedback-q12"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 13: Bạn hiểu Virus tin học là gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="a"> a) Tất cả đều đúng</label>
+                    <label><input type="radio" name="q13" value="b"> b) Là một chương trình máy tính do con người tạo ra</label>
+                    <label><input type="radio" name="q13" value="c"> c) Có khả năng tự dấu kín, tự sao chép để lây lan</label>
+                    <label><input type="radio" name="q13" value="d"> d) Có khả năng phá hoại đối với các sản phẩm tin học</label>
+                    <div class="feedback" id="feedback-q13"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 14: Trong Windows, có thể sử dụng chương trình nào như một máy tính bỏ túi ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="a"> a) Excel</label>
+                    <label><input type="radio" name="q14" value="b"> b) Calculator</label>
+                    <label><input type="radio" name="q14" value="c"> c) WinWord</label>
+                    <div class="feedback" id="feedback-q14"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 15: Trong máy tính RAM có nghĩa là gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="a"> a) Là bộ nhớ truy xuất ngẫu nhiên</label>
+                    <label><input type="radio" name="q15" value="b"> b) Là bộ xử lý thông tin</label>
+                    <label><input type="radio" name="q15" value="c"> c) Là bộ nhớ chỉ đọc</label>
+                    <label><input type="radio" name="q15" value="d"> d) Cả ba câu đều sai</label>
+                    <div class="feedback" id="feedback-q15"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 16: Người và máy tính giao tiếp thông qua :</p>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="a"> a) Bàn phím và màn hình</label>
+                    <label><input type="radio" name="q16" value="b"> b) Hệ điều hành</label>
+                    <label><input type="radio" name="q16" value="c"> c) RAM</label>
+                    <label><input type="radio" name="q16" value="d"> d) Notepad</label>
+                    <div class="feedback" id="feedback-q16"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 17: Khi đang sử dụng Windows, để lưu nội dung màn hình vào bộ nhớ Clipboard ta sử dụng các phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q17" value="a"> a) Ctrl+C</label>
+                    <label><input type="radio" name="q17" value="b"> b) Ctrl+Ins</label>
+                    <label><input type="radio" name="q17" value="c"> c) Print Screen</label>
+                    <label><input type="radio" name="q17" value="d"> d) ESC</label>
+                    <div class="feedback" id="feedback-q17"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 18: Trong Windows, từ Shortcut có ý nghĩa gì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q18" value="a"> a) Tạo đường tắt để truy cập nhanh</label>
+                    <label><input type="radio" name="q18" value="b"> b) Xóa một đối tượng được chọn tại màn hình nền</label>
+                    <label><input type="radio" name="q18" value="c"> c) Đóng các cửa sổ đang mở</label>
+                    <label><input type="radio" name="q18" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q18"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 19: Nếu kết nối Internet của bạn chậm, theo bạn nguyên nhân chính là gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q19" value="a"> a) Do nhiều người cùng truy cập làm cho tốc độ đường truyền giảm, thường bị nghẽn mạch</label>
+                    <label><input type="radio" name="q19" value="b"> b) Do Internet có tốc độ chậm</label>
+                    <label><input type="radio" name="q19" value="c"> c) Do người dùng chưa biết sử dụng Internet</label>
+                    <label><input type="radio" name="q19" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q19"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 20: Bạn hiểu Macro Virus là gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q20" value="a"> a) Là loại virus tin học chủ yếu lây lan vào các mẫu tin khởi động (Boot record)</label>
+                    <label><input type="radio" name="q20" value="b"> b) Là một loại virus tin học chủ yếu lây lan vào các bộ trữ điện</label>
+                    <label><input type="radio" name="q20" value="c"> c) Là loại virus tin học chủ yếu lây lan vào các tệp của WinWord và Excel</label>
+                    <label><input type="radio" name="q20" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q20"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 21: Để điều chỉnh thông số cấu hình bên trong Windows, bạn vào mục nào sau đây ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q21" value="a"> a) Start – Programs</label>
+                    <label><input type="radio" name="q21" value="b"> b) Start – Run</label>
+                    <label><input type="radio" name="q21" value="c"> c) Start – Settings – Control Panel</label>
+                    <label><input type="radio" name="q21" value="d"> d) Start – Search</label>
+                    <div class="feedback" id="feedback-q21"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 22: Để đóng 1 cửa sổ (chương trình) đang hoạt động, chọn cách nào sau đây ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q22" value="a"> a) File – Close</label>
+                    <label><input type="radio" name="q22" value="b"> b) Alt + F4</label>
+                    <label><input type="radio" name="q22" value="c"> c) Nhấn nút Close trên cửa sổ</label>
+                    <label><input type="radio" name="q22" value="d"> d) Tất cả các cách trên</label>
+                    <div class="feedback" id="feedback-q22"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 23: Các loại hệ điều hành hiện nay đều có khả năng tự động nhận biết các thiết bị phần cứng và tự động cài đặt thiết bị, đây là chức năng :</p>
+                <div class="options">
+                    <label><input type="radio" name="q23" value="a"> a) Plug and Play</label>
+                    <label><input type="radio" name="q23" value="b"> b) Desktop</label>
+                    <label><input type="radio" name="q23" value="c"> c) Windows Explorer</label>
+                    <label><input type="radio" name="q23" value="d"> d) Multimedia</label>
+                    <div class="feedback" id="feedback-q23"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 24: Bit là gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q24" value="a"> a) Là đơn vị nhỏ nhất của thông tin được sử dụng trong máy tính</label>
+                    <label><input type="radio" name="q24" value="b"> b) Là phần tử nhỏ nhất mang 2 giá trị 0 và 1</label>
+                    <label><input type="radio" name="q24" value="c"> c) Là đơn vị đo thông tin</label>
+                    <label><input type="radio" name="q24" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q24"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 25: Hex là hệ đếm :</p>
+                <div class="options">
+                    <label><input type="radio" name="q25" value="a"> a) Hệ nhị phân</label>
+                    <label><input type="radio" name="q25" value="b"> b) Hệ bát phân</label>
+                    <label><input type="radio" name="q25" value="c"> c) Hệ thập lục phân</label>
+                    <label><input type="radio" name="q25" value="d"> d) Hệ thập phân</label>
+                    <div class="feedback" id="feedback-q25"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 26: Cơ số 10 được gọi là hệ gì ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q26" value="a"> a) Hệ nhị phân</label>
+                    <label><input type="radio" name="q26" value="b"> b) Hệ thập lục phân</label>
+                    <label><input type="radio" name="q26" value="c"> c) Hệ bát phân</label>
+                    <label><input type="radio" name="q26" value="d"> d) Hệ thập phân</label>
+                    <div class="feedback" id="feedback-q26"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 27: Để thực thi một ứng dụng trong Windows, bạn làm thế nào ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q27" value="a"> a) Nhấp đúp vào biểu tượng</label>
+                    <label><input type="radio" name="q27" value="b"> b) Chọn biểu tượng – Enter</label>
+                    <label><input type="radio" name="q27" value="c"> c) Tất cả các cách trên</label>
+                    <div class="feedback" id="feedback-q27"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 28: Keyboard (bàn phím) có chức năng gì sau đây ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q28" value="a"> a) Nghe nhạc</label>
+                    <label><input type="radio" name="q28" value="b"> b) Xem phim</label>
+                    <label><input type="radio" name="q28" value="c"> c) Nhập các ký tự</label>
+                    <label><input type="radio" name="q28" value="d"> d) Không làm gì cả</label>
+                    <div class="feedback" id="feedback-q28"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 29: Để tắt máy tính an toàn, phải thực hiện các thao tác nào sau đây ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q29" value="a"> a) Rút điện</label>
+                    <label><input type="radio" name="q29" value="b"> b) Nhấn và giữ nút tắt trên Case để máy tính tắt</label>
+                    <label><input type="radio" name="q29" value="c"> c) Start– Turn Off Computer– Turn Off</label>
+                    <label><input type="radio" name="q29" value="d"> d) Không làm gì cả</label>
+                    <div class="feedback" id="feedback-q29"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 30: Một máy tính có ổ đĩa CDROM. ổ đĩa trên có thể đọc được các đĩa nào sau đây ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q30" value="a"> a) DVD</label>
+                    <label><input type="radio" name="q30" value="b"> b) CD-VCD</label>
+                    <label><input type="radio" name="q30" value="c"> c) MP3–MP4</label>
+                    <label><input type="radio" name="q30" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q30"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 31: Trong Winword, để chuyển một đoạn văn bản đã chọn từ chữ thường sang chữ hoa, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q31" value="a"> a) Format/Change case/Sentence case</label>
+                    <label><input type="radio" name="q31" value="b"> b) Format/Change case/Title case</label>
+                    <label><input type="radio" name="q31" value="c"> c) Format/Change case/Uppercase</label>
+                    <label><input type="radio" name="q31" value="d"> d) Format/Change case/Lower case</label>
+                    <div class="feedback" id="feedback-q31"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 32: Trong Winword, để canh giữa cho một đoạn văn bản đã được chọn, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q32" value="a"> a) Ctrl + C</label>
+                    <label><input type="radio" name="q32" value="b"> b) Ctrl + R</label>
+                    <label><input type="radio" name="q32" value="c"> c) Ctrl + E</label>
+                    <label><input type="radio" name="q32" value="d"> d) Ctrl + L</label>
+                    <div class="feedback" id="feedback-q32"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 33: Trong Winword, tổ hợp phím nào cho phép ngay lập tức đưa con trỏ về đầu văn bản?</p>
+                <div class="options">
+                    <label><input type="radio" name="q33" value="a"> a) Ctrl + Alt+Home</label>
+                    <label><input type="radio" name="q33" value="b"> b) Ctrl + Home</label>
+                    <label><input type="radio" name="q33" value="c"> c) Altl+Home</label>
+                    <label><input type="radio" name="q33" value="d"> d) Shift+Home</label>
+                    <div class="feedback" id="feedback-q33"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 34: Trong Winword, sau khi soạn thảo văn bản để thay thế chữ “thầy giáo” thành chữ “giáo viên”, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q34" value="a"> a) Edit/Goto</label>
+                    <label><input type="radio" name="q34" value="b"> b) Edit/Replace</label>
+                    <label><input type="radio" name="q34" value="c"> c) Edit/Find</label>
+                    <div class="feedback" id="feedback-q34"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 35: Trong Winword, công dụng của tổ hợp phím Ctrl + V là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q35" value="a"> a) Dán một đọan văn bản từ Clipboard.</label>
+                    <label><input type="radio" name="q35" value="b"> b) Sao chép một đoạn văn bản.</label>
+                    <label><input type="radio" name="q35" value="c"> c) Cắt một đoạn văn bản.</label>
+                    <label><input type="radio" name="q35" value="d"> d) Cắt và sao chép một đoạn văn bản.</label>
+                    <div class="feedback" id="feedback-q35"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 36: Trong Winword, để quan sát tổng quát nội dung văn bản trước khi quyết định in, ta chọn thao tác trên menu hay tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q36" value="a"> a) File/Print Preview</label>
+                    <label><input type="radio" name="q36" value="b"> b) Ctrl+P</label>
+                    <label><input type="radio" name="q36" value="c"> c) File/Web Page Preview</label>
+                    <label><input type="radio" name="q36" value="d"> d) File+Print</label>
+                    <div class="feedback" id="feedback-q36"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 37: Trong Winword, sau khi đã khởi động xong, để mở một văn bản đã có, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q37" value="a"> a) Ctrl + S</label>
+                    <label><input type="radio" name="q37" value="b"> b) Ctrl + O</label>
+                    <label><input type="radio" name="q37" value="c"> c) Ctrl + R</label>
+                    <label><input type="radio" name="q37" value="d"> d) Ctrl + L</label>
+                    <div class="feedback" id="feedback-q37"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 38: Trong Winword, khi soạn thảo văn bản, để chuyển đoạn văn đã được chọn từ chữ thường thành chữ đậm, ta chọn tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q38" value="a"> a) Ctrl + D</label>
+                    <label><input type="radio" name="q38" value="b"> b) Ctrl + V</label>
+                    <label><input type="radio" name="q38" value="c"> c) Ctrl + B</label>
+                    <label><input type="radio" name="q38" value="d"> d) Ctrl + C</label>
+                    <div class="feedback" id="feedback-q38"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 39: Trong Winword, để đánh chỉ số trên (ví dụ như m²), ta chọn thao tác nào trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q39" value="a"> a) Format/Font rồi chọn Strikethrough</label>
+                    <label><input type="radio" name="q39" value="b"> b) Format/Font rồi chọn Subscript</label>
+                    <label><input type="radio" name="q39" value="c"> c) Format/Font rồi chọn Superscript</label>
+                    <label><input type="radio" name="q39" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q39"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 40: Trong Winword, khi cần sử dụng thanh công cụ hỗ trợ việc vẽ các hình đồ họa như hình tròn, hình vuông, hình elíp, hình mũi tên, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q40" value="a"> a) View/Toolbars/Formating</label>
+                    <label><input type="radio" name="q40" value="b"> b) View/Toolbars/Drawing</label>
+                    <label><input type="radio" name="q40" value="c"> c) View/Toolbars/Control toolbox</label>
+                    <label><input type="radio" name="q40" value="d"> d) View/Toolbars/Standard</label>
+                    <div class="feedback" id="feedback-q40"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 41: Trong Winword, để tách một ô của Table thành nhiều ô, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q41" value="a"> a) Tools/Spit Cells</label>
+                    <label><input type="radio" name="q41" value="b"> b) Table/Cells</label>
+                    <label><input type="radio" name="q41" value="c"> c) Table/Merge Cells</label>
+                    <label><input type="radio" name="q41" value="d"> d) Table/Split Cell</label>
+                    <div class="feedback" id="feedback-q41"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 42: Trong Winword, để thay đổi khoảng cách giữa hai dòng văn bản của một đoạn văn bản đã được chọn, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q42" value="a"> a) Format/Paragraph/Spacing</label>
+                    <label><input type="radio" name="q42" value="b"> b) View/Toolbar/Spacing</label>
+                    <label><input type="radio" name="q42" value="c"> c) Format/Picture/Layout</label>
+                    <label><input type="radio" name="q42" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q42"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 43: Trong Winword, để in nội dung một đoạn văn bản đã được chọn, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q43" value="a"> a) Ctrl + P</label>
+                    <label><input type="radio" name="q43" value="b"> b) Ctrl + C</label>
+                    <label><input type="radio" name="q43" value="c"> c) Ctrl + L</label>
+                    <label><input type="radio" name="q43" value="d"> d) Ctrl + R</label>
+                    <div class="feedback" id="feedback-q43"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 44: Trong Winword, để tách đôi Table ra làm 2 Table riêng biệt theo hàng ngang, ta đặt con trỏ ở dòng cần tách rồi thực hiện thao tác nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q44" value="a"> a) Table/ Split Table</label>
+                    <label><input type="radio" name="q44" value="b"> b) Menu Table/insert/Rows below</label>
+                    <label><input type="radio" name="q44" value="c"> c) Dùng nút công cụ insert table để chèn thêm dòng mới.</label>
+                    <label><input type="radio" name="q44" value="d"> d) Table/Split cell rồi cung cấp giá trị là 2.</label>
+                    <div class="feedback" id="feedback-q44"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 45: Trong Winword, sau khi soạn thảo xong văn bản, để thoát khỏi Microsoft Word, ta chọn thao tác trên menu hay tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q45" value="a"> a) File/Exit</label>
+                    <label><input type="radio" name="q45" value="b"> b) Alt + F4</label>
+                    <label><input type="radio" name="q45" value="c"> c) File/Close</label>
+                    <label><input type="radio" name="q45" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q45"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 46: Chức năng trong menu Format/DropCap dùng để thể hiện:</p>
+                <div class="options">
+                    <label><input type="radio" name="q46" value="a"> a) Chữ hoa cho toàn bộ đoạn văn bản</label>
+                    <label><input type="radio" name="q46" value="b"> b) Chữ hoa đặc biệt cho ký tự đầu của toàn bộ đoạn văn bản</label>
+                    <label><input type="radio" name="q46" value="c"> c) Làm lệch ký tự đầu tiên của đoạn</label>
+                    <label><input type="radio" name="q46" value="d"> d) Làm tăng cỡ chữ cho văn bản trong đoạn</label>
+                    <div class="feedback" id="feedback-q46"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 47: Trong Winword, để đánh các dấu chấm tự động ở đầu dòng cho các đoạn văn bản, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q47" value="a"> a) Format/Paragraph</label>
+                    <label><input type="radio" name="q47" value="b"> b) Format/Bullet and Numbering</label>
+                    <label><input type="radio" name="q47" value="c"> c) Format/ Border and shading</label>
+                    <label><input type="radio" name="q47" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q47"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 48: Trong Winword, tổ hợp phím nào cho phép ngay lập tức đưa con trỏ về cuối văn bản?</p>
+                <div class="options">
+                    <label><input type="radio" name="q48" value="a"> a) Ctrl + Alt + End</label>
+                    <label><input type="radio" name="q48" value="b"> b) Ctrl + End</label>
+                    <label><input type="radio" name="q48" value="c"> c) Alt + End</label>
+                    <label><input type="radio" name="q48" value="d"> d) Shift + End</label>
+                    <div class="feedback" id="feedback-q48"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 49: Trong Winword, sau khi định dạng in nghiêng cho 1 khối, muốn xóa định dạng in nghiêng của khối đó, ta dùng lệng hay tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q49" value="a"> a) Ctrl + SpaceBar</label>
+                    <label><input type="radio" name="q49" value="b"> b) Vào menu Format/Font chọn giá trị Regular</label>
+                    <label><input type="radio" name="q49" value="c"> c) Ctrl + I</label>
+                    <label><input type="radio" name="q49" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q49"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 50: Trong Winword, sau khi tiến hành xong việc chèn một hình vào văn bản. Để thể hiện hình này trong văn bản theo vị trí mong muốn, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q50" value="a"> a) Format/Picture/Layout</label>
+                    <label><input type="radio" name="q50" value="b"> b) Tool/Option/Format Picture</label>
+                    <label><input type="radio" name="q50" value="c"> c) View/Toolbar/Drawing</label>
+                    <label><input type="radio" name="q50" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q50"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 51: Trong Winword, khi soạn thảo văn bản có công thức hóa học (ví dụ như H2O), sau khi gõ H2O ta chọn số 2 rồi thực hiện thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q51" value="a"> a) Không có cách nào dùng cả</label>
+                    <label><input type="radio" name="q51" value="b"> b) Format/Font rồi chọn Superscrip</label>
+                    <label><input type="radio" name="q51" value="c"> c) Format/Font rồi chọn Strikethrough</label>
+                    <label><input type="radio" name="q51" value="d"> d) Format/Font rồi chọn Subscrip</label>
+                    <div class="feedback" id="feedback-q51"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 52: Trong Winword, để tạo ký tự to ở đầu dòng của đoạn văn, ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q52" value="a"> a) Edit/Drop Cap</label>
+                    <label><input type="radio" name="q52" value="b"> b) Insert/Drop Cap</label>
+                    <label><input type="radio" name="q52" value="c"> c) Format/Drop Cap</label>
+                    <label><input type="radio" name="q52" value="d"> d) Format/Font size</label>
+                    <div class="feedback" id="feedback-q52"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 53: Trong Winword, thao tác copy và thao tác cut dữ liệu có điểm chung gì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q53" value="a"> a) Cất dữ liệu</label>
+                    <label><input type="radio" name="q53" value="b"> b) Di chuyển dữ liệu</label>
+                    <label><input type="radio" name="q53" value="c"> c) Nhân bản dữ liệu</label>
+                    <label><input type="radio" name="q53" value="d"> d) Cùng lưu dữ liệu được chỉ định vào vùng nhớ trung gian</label>
+                    <div class="feedback" id="feedback-q53"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 54: Trong Winword, sau khi khởi động xong để tạo một văn bản mới, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q54" value="a"> a) Ctrl + S</label>
+                    <label><input type="radio" name="q54" value="b"> b) Ctrl + R</label>
+                    <label><input type="radio" name="q54" value="c"> c) Ctrl + N</label>
+                    <label><input type="radio" name="q54" value="d"> d) Ctrl + L</label>
+                    <div class="feedback" id="feedback-q54"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 55: Trong Winword, để kết thúc 1 đoạn (Paragraph) sang 1 đoạn mới, ta chọn tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q55" value="a"> a) Enter</label>
+                    <label><input type="radio" name="q55" value="b"> b) Winword sẽ tự động, không cần bấm phím</label>
+                    <label><input type="radio" name="q55" value="c"> c) Ctrl + Enter</label>
+                    <label><input type="radio" name="q55" value="d"> d) Shift + Enter</label>
+                    <div class="feedback" id="feedback-q55"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 56: Trong Winword, khi soạn thảo văn bản, để chuyển đoạn văn bản đã được chọn từ chữ có gạch chân thành chữ thường, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q56" value="a"> a) Ctrl + V</label>
+                    <label><input type="radio" name="q56" value="b"> b) Ctrl + U</label>
+                    <label><input type="radio" name="q56" value="c"> c) Ctrl + C</label>
+                    <label><input type="radio" name="q56" value="d"> d) Ctrl + D</label>
+                    <div class="feedback" id="feedback-q56"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 57: Trong Winword, để gạch ngang một đoạn văn bản đã chọn (ví dụ như tên), ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q57" value="a"> a) Format/Font/Subscript</label>
+                    <label><input type="radio" name="q57" value="b"> b) Format/Font/Strikethrough</label>
+                    <label><input type="radio" name="q57" value="c"> c) Format/Double Strikethough</label>
+                    <label><input type="radio" name="q57" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q57"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 58: Trong Winword, để chèn tiêu đề trang (đầu trang và chân trang), ta chọn thao tác trên menu nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q58" value="a"> a) View/Header and Footer</label>
+                    <label><input type="radio" name="q58" value="b"> b) Tools/Header and Footer</label>
+                    <label><input type="radio" name="q58" value="c"> c) Format/Header and Footer</label>
+                    <label><input type="radio" name="q58" value="d"> d) Insert/Header and Footer</label>
+                    <div class="feedback" id="feedback-q58"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 59: Trong Winword, công dụng của tổ hợp phím Ctrl + S là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q59" value="a"> a) Chèn ký hiệu đặc biệt</label>
+                    <label><input type="radio" name="q59" value="b"> b) Tạo tập tin văn bản mới</label>
+                    <label><input type="radio" name="q59" value="c"> c) Lưu tập tin văn bản vào đĩa</label>
+                    <label><input type="radio" name="q59" value="d"> d) Xóa tập tin văn bản</label>
+                    <div class="feedback" id="feedback-q59"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 60: Trong Winword, để canh đều 2 lề cho một đoạn văn bản đã được chọn, ta dùng tổ hợp phím nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q60" value="a"> a) Ctrl + L</label>
+                    <label><input type="radio" name="q60" value="b"> b) Ctrl + R</label>
+                    <label><input type="radio" name="q60" value="c"> c) Ctrl + C</label>
+                    <label><input type="radio" name="q60" value="d"> d) Ctrl + J</label>
+                    <div class="feedback" id="feedback-q60"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 61: Trong bảng tính Excel, tại ô A2 có sẵn giá trị số 25 ; Tại ô B2 gõ vào công thức =SQRT(A2) thì nhận được kết quả:</p>
+                <div class="options">
+                    <label><input type="radio" name="q61" value="a"> a) 0</label>
+                    <label><input type="radio" name="q61" value="b"> b) 5</label>
+                    <label><input type="radio" name="q61" value="c"> c) #VALUE!</label>
+                    <label><input type="radio" name="q61" value="d"> d) #NAME!</label>
+                    <div class="feedback" id="feedback-q61"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 62: Trong khi làm việc với Excel, để nhập vào công thức tính toán cho một ô, trước hết ta phải gõ:</p>
+                <div class="options">
+                    <label><input type="radio" name="q62" value="a"> a) Dấu chấm hỏi (?)</label>
+                    <label><input type="radio" name="q62" value="b"> b) Dấu bằng (=)</label>
+                    <label><input type="radio" name="q62" value="c"> c) Dấu hai chấm (:)</label>
+                    <label><input type="radio" name="q62" value="d"> d) Dấu đô la ($)</label>
+                    <div class="feedback" id="feedback-q62"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 63: Trong bảng tính Excel, tại ô A2 có sẵn giá trị số không (0); Tại ô B2 gõ vào công thức =5/A2 thì nhận được kết quả:</p>
+                <div class="options">
+                    <label><input type="radio" name="q63" value="a"> a) 0</label>
+                    <label><input type="radio" name="q63" value="b"> b) 5</label>
+                    <label><input type="radio" name="q63" value="c"> c) #VALUE!</label>
+                    <label><input type="radio" name="q63" value="d"> d) #DIV/0!</label>
+                    <div class="feedback" id="feedback-q63"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 64: Trong các dạng địa chỉ sau đây, địa chỉ nào là địa chỉ tuyệt đối?</p>
+                <div class="options">
+                    <label><input type="radio" name="q64" value="a"> a) B$1:D$10</label>
+                    <label><input type="radio" name="q64" value="b"> b) $B1:$D10</label>
+                    <label><input type="radio" name="q64" value="c"> c) B$1$:D$10$</label>
+                    <label><input type="radio" name="q64" value="d"> d) $B$1:$D$10</label>
+                    <div class="feedback" id="feedback-q64"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 65: Trong bảng tính Excel, tại ô A2 gõ vào công thức =IF(3>5,100,IF(5<6,200,300)) thì kết quả nhận được tại ô A2 là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q65" value="a"> a) 200</label>
+                    <label><input type="radio" name="q65" value="b"> b) 100</label>
+                    <label><input type="radio" name="q65" value="c"> c) 300</label>
+                    <label><input type="radio" name="q65" value="d"> d) False</label>
+                    <div class="feedback" id="feedback-q65"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 66: Giả sử ngày hệ thống của máy tính là: 8/18/2008; Khi đó tại ô A2 gõ vào công thức =Today()-1 thì nhận được kết quả là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q66" value="a"> a) 0</label>
+                    <label><input type="radio" name="q66" value="b"> b) #VALUE!</label>
+                    <label><input type="radio" name="q66" value="c"> c) #NAME!</label>
+                    <label><input type="radio" name="q66" value="d"> d) 8/17/2008</label>
+                    <div class="feedback" id="feedback-q66"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 67: Trong Excel, công thức =Max(2,3,7,9,“e”) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q67" value="a"> a) 9</label>
+                    <label><input type="radio" name="q67" value="b"> b) #name</label>
+                    <label><input type="radio" name="q67" value="c"> c) #Value!</label>
+                    <label><input type="radio" name="q67" value="d"> d) 2</label>
+                    <div class="feedback" id="feedback-q67"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 68: Trong Excel, công thức =Min(2,3,7,9, “e”) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q68" value="a"> a) #Name</label>
+                    <label><input type="radio" name="q68" value="b"> b) 3</label>
+                    <label><input type="radio" name="q68" value="c"> c) 9</label>
+                    <label><input type="radio" name="q68" value="d"> d) #Value!</label>
+                    <div class="feedback" id="feedback-q68"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 69: Trong Excel, để cắt được từ “an” trong từ “Hanoi” công thức nào sau đây là đúng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q69" value="a"> a) =Mid(“Hanoi”,2,2)</label>
+                    <label><input type="radio" name="q69" value="b"> b) =Mid(“Hanoi”,2,3)</label>
+                    <label><input type="radio" name="q69" value="c"> c) =Mid(“Hanoi”,3,2)</label>
+                    <label><input type="radio" name="q69" value="d"> d) =Right(“Hanoi”,2)</label>
+                    <div class="feedback" id="feedback-q69"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 70: Trong bảng tính Excel, tại ô A2 có sẵn dữ liệu là dãy kí tự "Tin hoc van phong" ; Tại ô B2 gõ vào công thức =LOWER(A2) thì nhận được kết quả?</p>
+                <div class="options">
+                    <label><input type="radio" name="q70" value="a"> a) TIN HOC VANPHONG</label>
+                    <label><input type="radio" name="q70" value="b"> b) Tin hoc van phong</label>
+                    <label><input type="radio" name="q70" value="c"> c) tin hoc van phong</label>
+                    <label><input type="radio" name="q70" value="d"> d) Tin Hoc Van Phong</label>
+                    <div class="feedback" id="feedback-q70"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 71: Trong Excel, tại ô A2 có giá trị là số 10 ; ô B2 có giá trị là số 3. Tại ô C2 gõ công thức =MOD(A2,B2) thì nhận được kết quả :</p>
+                <div class="options">
+                    <label><input type="radio" name="q71" value="a"> a) 10</label>
+                    <label><input type="radio" name="q71" value="b"> b) 3</label>
+                    <label><input type="radio" name="q71" value="c"> c) #Value</label>
+                    <label><input type="radio" name="q71" value="d"> d) 1</label>
+                    <div class="feedback" id="feedback-q71"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 72: Trong Excel, với bảng dữ liệu như hình vẽ để tính giá trị cho cột Tổng (ô H2) theo qui ước Tổng=Toán + Văn + Anh. Ta dùng công thức tổng quát nào sau đây?</p>
+                <img src="/screenshot_1740797083.png" alt="">
+                <div class="options">
+                    <label><input type="radio" name="q72" value="a"> a) = $E$1 + $F$1 +$G$1</label>
+                    <label><input type="radio" name="q72" value="b"> b) =SUM(E2:G2)</label>
+                    <label><input type="radio" name="q72" value="c"> c) = SUM($E$2:$G$2)</label>
+                    <label><input type="radio" name="q72" value="d"> d) = E1 +F1 +G1</label>
+                    <div class="feedback" id="feedback-q72"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 73: Trong Excel, công thức =Len(“QuangBinh”) cho kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q73" value="a"> a) 4</label>
+                    <label><input type="radio" name="q73" value="b"> b) #Name</label>
+                    <label><input type="radio" name="q73" value="c"> c) 5</label>
+                    <label><input type="radio" name="q73" value="d"> d) 9</label>
+                    <div class="feedback" id="feedback-q73"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 74: Trong Excel, công thức =Average(4,6,7,3) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q74" value="a"> a) 4</label>
+                    <label><input type="radio" name="q74" value="b"> b) 5</label>
+                    <label><input type="radio" name="q74" value="c"> c) 8</label>
+                    <label><input type="radio" name="q74" value="d"> d) 6.25</label>
+                    <div class="feedback" id="feedback-q74"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 75: Trong Excel, công thức =IF(OR(C5>=8,C6= “A”),1000,300) trả về kết quả là bao nhiêu nếu giá trị ở ô C5=9 và C6= “C”?</p>
+                <div class="options">
+                    <label><input type="radio" name="q75" value="a"> a) 300</label>
+                    <label><input type="radio" name="q75" value="b"> b) #Value!</label>
+                    <label><input type="radio" name="q75" value="c"> c) 1000</label>
+                    <label><input type="radio" name="q75" value="d"> d) False(Sai)</label>
+                    <div class="feedback" id="feedback-q75"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 76: Trong Excel, để cắt được 2 ký tự cuối trong từ “SAIGON” ta sử dụng công thức nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q76" value="a"> a) = RIGHT(“SAIGON”,1)</label>
+                    <label><input type="radio" name="q76" value="b"> b) = LEFT(“SAIGON”,2)</label>
+                    <label><input type="radio" name="q76" value="c"> c) = MID(“SAIGON”,2)</label>
+                    <label><input type="radio" name="q76" value="d"> d) = RIGHT(“SAIGON”,2)</label>
+                    <div class="feedback" id="feedback-q76"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 77: Trong Excel, công thức =Sum(4,6,-2,9,s) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q77" value="a"> a) 17</label>
+                    <label><input type="radio" name="q77" value="b"> b) #Value!</label>
+                    <label><input type="radio" name="q77" value="c"> c) 5</label>
+                    <label><input type="radio" name="q77" value="d"> d) #Name?</label>
+                    <div class="feedback" id="feedback-q77"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 78: Trong Excel, công thức =LEFT(MID(RIGHT(“ABCDEFGH”,5),3,2),1) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q78" value="a"> a) B</label>
+                    <label><input type="radio" name="q78" value="b"> b) F</label>
+                    <label><input type="radio" name="q78" value="c"> c) C</label>
+                    <label><input type="radio" name="q78" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q78"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 79: Trong Excel, công thức =COUNT(5,4,9,12, “e”) trả về kết quả là bao nhiêu?</p>
+                <div class="options">
+                    <label><input type="radio" name="q79" value="a"> a) #Name?</label>
+                    <label><input type="radio" name="q79" value="b"> b) #Value!</label>
+                    <label><input type="radio" name="q79" value="c"> c) 5</label>
+                    <label><input type="radio" name="q79" value="d"> d) 4</label>
+                    <div class="feedback" id="feedback-q79"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 80: Trong Excel, với bảng dữ liệu theo hình vẽ để tính đơn giá ta dựa vào ký tự đầu để dò tìm trong bảng dò và ký tự thứ 2 để tìm giá mặt hàng (với S là giá sỉ và L là giá lẻ). Ta dùng công thức nào sau đây tại ô E2?</p>
+                <img src="/screenshot_1740797025.png" alt="">
+                <div class="options">
+                    <label><input type="radio" name="q80" value="a"> a) =Vlookup(Left(B2,1,$B$9:$E$14,if(Mid(B2,2,1)= “S”,3,4),0)</label>
+                    <label><input type="radio" name="q80" value="b"> b) =Vlookup(Left(B2,1),$B$9:$E$14,if(Mid(B2,2,1)= “S”,3,4),0)</label>
+                    <label><input type="radio" name="q80" value="c"> c) =Vlookup(Left(B2),$B$10:$E$14,if(Mid(B2,2,1)= “S”,3,4),0)</label>
+                    <label><input type="radio" name="q80" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q80"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 81: Dưới góc độ địa lí, mạng máy tính được phân biệt thành:</p>
+                <div class="options">
+                    <label><input type="radio" name="q81" value="a"> a) Mạng cục bộ, mạng diện rộng, mạng toàn cầu</label>
+                    <label><input type="radio" name="q81" value="b"> b) Mạng cục bộ, mạng diện rộng, mạng toàn cục</label>
+                    <label><input type="radio" name="q81" value="c"> c) Mạng cục bộ, mạng toàn cục, mạng toàn cầu</label>
+                    <label><input type="radio" name="q81" value="d"> d) Mạng diện rộng, mạng toàn cầu, mạng toàn cục</label>
+                    <div class="feedback" id="feedback-q81"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 82: Trong mạng máy tính, thuật ngữ LAN có ý nghĩa gì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q82" value="a"> a) Mạng cục bộ</label>
+                    <label><input type="radio" name="q82" value="b"> b) Mạng diện rộng</label>
+                    <label><input type="radio" name="q82" value="c"> c) Mạng toàn cầu</label>
+                    <label><input type="radio" name="q82" value="d"> d) Một ý nghĩa khác</label>
+                    <div class="feedback" id="feedback-q82"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 83: Trong kết nối mạng máy tính cục bộ, cáp mạng gồm mấy loại?</p>
+                <div class="options">
+                    <label><input type="radio" name="q83" value="a"> a) 2</label>
+                    <label><input type="radio" name="q83" value="b"> b) 3</label>
+                    <label><input type="radio" name="q83" value="c"> c) 4</label>
+                    <label><input type="radio" name="q83" value="d"> d) 5</label>
+                    <div class="feedback" id="feedback-q83"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 84: Hãy chọn ra tên thiết bị mạng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q84" value="a"> a) USB</label>
+                    <label><input type="radio" name="q84" value="b"> b) UPS</label>
+                    <label><input type="radio" name="q84" value="c"> c) Hub</label>
+                    <label><input type="radio" name="q84" value="d"> d) Webcam</label>
+                    <div class="feedback" id="feedback-q84"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 85: Khi kết nối thành một mạng máy tính cục bộ và các thiết bị, theo em thiết bị nào sau đây có thể được chia sẻ để sử dụng chung?</p>
+                <div class="options">
+                    <label><input type="radio" name="q85" value="a"> a) Máy in</label>
+                    <label><input type="radio" name="q85" value="b"> b) Micro</label>
+                    <label><input type="radio" name="q85" value="c"> c) Webcam</label>
+                    <label><input type="radio" name="q85" value="d"> d) Đĩa mềm</label>
+                    <div class="feedback" id="feedback-q85"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 86: Khi làm việc trong mạng cục bộ, muốn xem tài nguyên trên mạng ta nháy đúp chuột chọn biểu tượng</p>
+                <div class="options">
+                    <label><input type="radio" name="q86" value="a"> a) My Computer</label>
+                    <label><input type="radio" name="q86" value="b"> b) My Document</label>
+                    <label><input type="radio" name="q86" value="c"> c) My Network Places</label>
+                    <label><input type="radio" name="q86" value="d"> d) Internet Explorer</label>
+                    <div class="feedback" id="feedback-q86"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 87: Trong mạng máy tính, thuật ngữ Share có ý nghĩa gì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q87" value="a"> a) Chia sẻ tài nguyên</label>
+                    <label><input type="radio" name="q87" value="b"> b) Nhãn hiệu của một thiết bị kết nối mạng</label>
+                    <label><input type="radio" name="q87" value="c"> c) Thực hiện lệnh in trong mạng cục bộ</label>
+                    <label><input type="radio" name="q87" value="d"> d) Một phần mềm hỗ trợ sử dụng mạng cục bộ</label>
+                    <div class="feedback" id="feedback-q87"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 88: Thiết bị nào hoạt động ở tầng Vật lý (Physical)?</p>
+                <div class="options">
+                    <label><input type="radio" name="q88" value="a"> a) Switch</label>
+                    <label><input type="radio" name="q88" value="b"> b) Card mạng</label>
+                    <label><input type="radio" name="q88" value="c"> c) Hub và repeater</label>
+                    <label><input type="radio" name="q88" value="d"> d) Router</label>
+                    <div class="feedback" id="feedback-q88"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 89: Môi trường truyền tin thông thường trong mạng máy tính là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q89" value="a"> a) Các loại cáp như: UTP, STP, cáp điện thoại, cáp quang,...</label>
+                    <label><input type="radio" name="q89" value="b"> b) Sóng hồng ngoại</label>
+                    <label><input type="radio" name="q89" value="c"> c) Tất cả môi trường nêu trên</label>
+                    <label><input type="radio" name="q89" value="d"> d) Không cái gì đúng</label>
+                    <div class="feedback" id="feedback-q89"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 90: Các thành phần tạo nên mạng là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q90" value="a"> a) Máy tính, hub, switch</label>
+                    <label><input type="radio" name="q90" value="b"> b) Network adapter, cable</label>
+                    <label><input type="radio" name="q90" value="c"> c) Protocol</label>
+                    <label><input type="radio" name="q90" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q90"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 91: Tầng nào trong mô hình OSI làm việc với các tín hiệu điện?</p>
+                <div class="options">
+                    <label><input type="radio" name="q91" value="a"> a) Data Link</label>
+                    <label><input type="radio" name="q91" value="b"> b) Network</label>
+                    <label><input type="radio" name="q91" value="c"> c) Physical</label>
+                    <label><input type="radio" name="q91" value="d"> d) Transport</label>
+                    <div class="feedback" id="feedback-q91"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 92: Protocol là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q92" value="a"> a) Các qui tắc để cho phép các máy tính có thể giao tiếp được với nhau</label>
+                    <label><input type="radio" name="q92" value="b"> b) Một trong những thành phần không thể thiếu trong hệ thống mạng</label>
+                    <label><input type="radio" name="q92" value="c"> c) A và B sai</label>
+                    <label><input type="radio" name="q92" value="d"> d) A và B đúng</label>
+                    <div class="feedback" id="feedback-q92"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 93: Thiết bị nào sau đây được sử dụng tại trung tâm của mạng hình sao?</p>
+                <div class="options">
+                    <label><input type="radio" name="q93" value="a"> a) Switch, Bridge</label>
+                    <label><input type="radio" name="q93" value="b"> b) Netcard</label>
+                    <label><input type="radio" name="q93" value="c"> c) Port</label>
+                    <label><input type="radio" name="q93" value="d"> d) Repeater</label>
+                    <div class="feedback" id="feedback-q93"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 94: Kiến trúc một mạng LAN có thể là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q94" value="a"> a) RING</label>
+                    <label><input type="radio" name="q94" value="b"> b) BUS</label>
+                    <label><input type="radio" name="q94" value="c"> c) STAR</label>
+                    <label><input type="radio" name="q94" value="d"> d) Có thể phối hợp cả A, B và C</label>
+                    <div class="feedback" id="feedback-q94"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 95: Giá trị của 11101101 (giá trị các bit nhị phân) trong cơ số 16 là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q95" value="a"> a) CB</label>
+                    <label><input type="radio" name="q95" value="b"> b) ED</label>
+                    <label><input type="radio" name="q95" value="c"> c) EC</label>
+                    <label><input type="radio" name="q95" value="d"> d) EC</label>
+                    <div class="feedback" id="feedback-q95"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 96: Mô tả nào sau đây dành cho mạng hình sao (star)?</p>
+                <div class="options">
+                    <label><input type="radio" name="q96" value="a"> a) Truyền dữ liệu qua cáp đồng trục</label>
+                    <label><input type="radio" name="q96" value="b"> b) Mỗi nút mạng đều kết nối trực tiếp với tất cả các nút khác</label>
+                    <label><input type="radio" name="q96" value="c"> c) Có một nút trung tâm và các nút mạng khác kết nối đến</label>
+                    <label><input type="radio" name="q96" value="d"> d) Các nút mạng sử dụng chung một đường cáp</label>
+                    <div class="feedback" id="feedback-q96"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 97: Loại cáp nào được sử dụng phổ biến nhất hiện nay?</p>
+                <div class="options">
+                    <label><input type="radio" name="q97" value="a"> a) Cáp đồng trục</label>
+                    <label><input type="radio" name="q97" value="b"> b) Cáp STP</label>
+                    <label><input type="radio" name="q97" value="c"> c) Cáp UTP (CAT 5)</label>
+                    <label><input type="radio" name="q97" value="d"> d) Cáp quang</label>
+                    <div class="feedback" id="feedback-q97"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 98: Nhược điểm của mạng dạng hình sao (Star) là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q98" value="a"> a) Khó cài đặt và bảo trì</label>
+                    <label><input type="radio" name="q98" value="b"> b) Khó khắc phục khi lỗi cáp xảy ra, và ảnh hưởng tới các nút mạng khác</label>
+                    <label><input type="radio" name="q98" value="c"> c) Cần quá nhiều cáp để kết nối tới nút mạng trung tâm</label>
+                    <label><input type="radio" name="q98" value="d"> d) Không có khả năng thay đổi khi đã lắp đặt</label>
+                    <div class="feedback" id="feedback-q98"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 99: Đặc điểm của mạng dạng Bus?</p>
+                <div class="options">
+                    <label><input type="radio" name="q99" value="a"> a) Tất cả các nút mạng kết nối vào nút mạng trung tâm (Ví dụ như Hub)</label>
+                    <label><input type="radio" name="q99" value="b"> b) Tất cả các nút kết nối trên cùng một đường truyền vật lý</label>
+                    <label><input type="radio" name="q99" value="c"> c) Tất cả các nút mạng đều kết nối trực tiếp với nhau</label>
+                    <label><input type="radio" name="q99" value="d"> d) Mỗi nút mạng kết nối với 2 nút mạng còn lại</label>
+                    <div class="feedback" id="feedback-q99"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 100: Khi sử dụng mạng máy tính ta sẽ thu được các lợi ích?</p>
+                <div class="options">
+                    <label><input type="radio" name="q100" value="a"> a) Chia sẻ tài nguyên (ổ cứng, cơ sở dữ liệu, máy in, các phần mềm tiện ích...)</label>
+                    <label><input type="radio" name="q100" value="b"> b) Quản lý tập trung</label>
+                    <label><input type="radio" name="q100" value="c"> c) Tận dụng năng lực xử lý của các máy tính rỗi kết hợp lại để thực hiện các công việc lớn</label>
+                    <label><input type="radio" name="q100" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q100"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 101: Để kết nối hai máy tính với nhau ta có thể sử dụng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q101" value="a"> a) Hub</label>
+                    <label><input type="radio" name="q101" value="b"> b) Switch</label>
+                    <label><input type="radio" name="q101" value="c"> c) Nối cáp trực tiếp</label>
+                    <label><input type="radio" name="q101" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q101"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 102: Chọn chức năng của tầng Presentation?</p>
+                <div class="options">
+                    <label><input type="radio" name="q102" value="a"> a) Mã hoá dữ liệu và nén dữ liệu</label>
+                    <label><input type="radio" name="q102" value="b"> b) Cung cấp các dịch vụ mạng người dùng</label>
+                    <label><input type="radio" name="q102" value="c"> c) Đánh địa chỉ</label>
+                    <label><input type="radio" name="q102" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q102"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 103: Biểu diễn số 125 từ cơ số decimal sang cơ số binary?</p>
+                <div class="options">
+                    <label><input type="radio" name="q103" value="a"> a) 01111101</label>
+                    <label><input type="radio" name="q103" value="b"> b) 01101111</label>
+                    <label><input type="radio" name="q103" value="c"> c) 01011111</label>
+                    <label><input type="radio" name="q103" value="d"> d) 01111110</label>
+                    <div class="feedback" id="feedback-q103"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 104: Số nhị phân nào dưới đây có giá trị là 164?</p>
+                <div class="options">
+                    <label><input type="radio" name="q104" value="a"> a) 10100100</label>
+                    <label><input type="radio" name="q104" value="b"> b) 10010010</label>
+                    <label><input type="radio" name="q104" value="c"> c) 11000100</label>
+                    <label><input type="radio" name="q104" value="d"> d) 10101010</label>
+                    <div class="feedback" id="feedback-q104"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 105: Khi kết nối máy tính từ nhà vào ISP thông qua đường dây điện thoại, tín hiệu trên đường điện thoại sẽ thuộc về tầng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q105" value="a"> a) Giao vận</label>
+                    <label><input type="radio" name="q105" value="b"> b) Mạng</label>
+                    <label><input type="radio" name="q105" value="c"> c) Liên kết dữ liệu</label>
+                    <label><input type="radio" name="q105" value="d"> d) Vật lý</label>
+                    <div class="feedback" id="feedback-q105"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 106: Khi nối mạng giữa 2 máy tính, chúng ta sử dụng loại cáp nào để nối trực tiếp giữa chúng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q106" value="a"> a) Cáp quang</label>
+                    <label><input type="radio" name="q106" value="b"> b) Cáp UTP thẳng</label>
+                    <label><input type="radio" name="q106" value="c"> c) Cáp STP</label>
+                    <label><input type="radio" name="q106" value="d"> d) Cáp UTP chéo (crossover)</label>
+                    <div class="feedback" id="feedback-q106"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 107: Sợi cáp xoắn nối giữa card mạng với hub thì?</p>
+                <div class="options">
+                    <label><input type="radio" name="q107" value="a"> a) Bấm thứ tự 2 đầu cáp giống nhau</label>
+                    <label><input type="radio" name="q107" value="b"> b) Đổi vị trí các sợi 1, 2 với sợi 3, 6</label>
+                    <label><input type="radio" name="q107" value="c"> c) Một đầu bấm theo chuẩn TIA/EIA T-568A, đầu kia theo chuẩn TIA/EIA T568-B</label>
+                    <label><input type="radio" name="q107" value="d"> d) Tất cả đều sai</label>
+                    <div class="feedback" id="feedback-q107"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 108: Mô hình OSI tổ chức các giao thức truyền thông thành bao nhiêu tầng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q108" value="a"> a) 3</label>
+                    <label><input type="radio" name="q108" value="b"> b) 5</label>
+                    <label><input type="radio" name="q108" value="c"> c) 7</label>
+                    <label><input type="radio" name="q108" value="d"> d) 9</label>
+                    <div class="feedback" id="feedback-q108"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 109: Địa chỉ nào sau đây thuộc lớp A?</p>
+                <div class="options">
+                    <label><input type="radio" name="q109" value="a"> a) 172.29.14.10</label>
+                    <label><input type="radio" name="q109" value="b"> b) 10.1.1.1</label>
+                    <label><input type="radio" name="q109" value="c"> c) 140.8.8.8</label>
+                    <label><input type="radio" name="q109" value="d"> d) 140.8.8.8</label>
+                    <div class="feedback" id="feedback-q109"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 110: Trong các địa chỉ sau, chọn địa chỉ không nằm cùng mạng với các địa chỉ còn lại?</p>
+                <div class="options">
+                    <label><input type="radio" name="q110" value="a"> a) 203.29.100.100/255.255.255.240</label>
+                    <label><input type="radio" name="q110" value="b"> b) 203.29.100.110/255.255.255.240</label>
+                    <label><input type="radio" name="q110" value="c"> c) 203.29.103.113/255.255.255.240</label>
+                    <label><input type="radio" name="q110" value="d"> d) 203.29.100.98/255.255.255.240</label>
+                    <div class="feedback" id="feedback-q110"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 111: Chọn định nghĩa đúng về địa chỉ MAC?</p>
+                <div class="options">
+                    <label><input type="radio" name="q111" value="a"> a) Được ghi sẵn trên card mạng (NIC)</label>
+                    <label><input type="radio" name="q111" value="b"> b) Địa chỉ của mạng được xác định bởi người quản trị mạng</label>
+                    <label><input type="radio" name="q111" value="c"> c) Câu A và B đúng</label>
+                    <label><input type="radio" name="q111" value="d"> d) Tất cả đều đúng</label>
+                    <div class="feedback" id="feedback-q111"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 112: Địa chỉ IP 172.200.25.55/255.255.0.0</p>
+                <div class="options">
+                    <label><input type="radio" name="q112" value="a"> a) Thuộc lớp A</label>
+                    <label><input type="radio" name="q112" value="b"> b) Thuộc lớp C</label>
+                    <label><input type="radio" name="q112" value="c"> c) Là địa chỉ riêng</label>
+                    <label><input type="radio" name="q112" value="d"> d) Là địa chỉ broadcast</label>
+                    <div class="feedback" id="feedback-q112"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 113: Độ dài tối đa cho phép khi sử dụng dây cáp mạng UTP là bao nhiêu mét?</p>
+                <div class="options">
+                    <label><input type="radio" name="q113" value="a"> a) 100</label>
+                    <label><input type="radio" name="q113" value="b"> b) 200</label>
+                    <label><input type="radio" name="q113" value="c"> c) 350</label>
+                    <label><input type="radio" name="q113" value="d"> d) 400</label>
+                    <div class="feedback" id="feedback-q113"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 114: Trang thiết bị mạng trung tâm dùng để kết nối các máy tính trong mạng hình sao (STAR)?</p>
+                <div class="options">
+                    <label><input type="radio" name="q114" value="a"> a) Switch/Hub</label>
+                    <label><input type="radio" name="q114" value="b"> b) Router</label>
+                    <label><input type="radio" name="q114" value="c"> c) Repeater</label>
+                    <label><input type="radio" name="q114" value="d"> d) NIC</label>
+                    <div class="feedback" id="feedback-q114"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 115: Nếu 4 PCs kết nối với nhau thông qua HUB thì cần bao nhiêu địa chỉ IP cho 5 trang thiết bị mạng này?</p>
+                <div class="options">
+                    <label><input type="radio" name="q115" value="a"> a) 1</label>
+                    <label><input type="radio" name="q115" value="b"> b) 3</label>
+                    <label><input type="radio" name="q115" value="c"> c) 4</label>
+                    <label><input type="radio" name="q115" value="d"> d) 2</label>
+                    <div class="feedback" id="feedback-q115"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 116: Kiểu mạng nào được hạn chế ở cấp tòa cao ốc hay một công sở?</p>
+                <div class="options">
+                    <label><input type="radio" name="q116" value="a"> a) GAN</label>
+                    <label><input type="radio" name="q116" value="b"> b) WAN</label>
+                    <label><input type="radio" name="q116" value="c"> c) MAN</label>
+                    <label><input type="radio" name="q116" value="d"> d) LAN</label>
+                    <div class="feedback" id="feedback-q116"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 117: Kết quả nào sau đây không đúng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q117" value="a"> a) 163 chuyển sang nhị phân sẽ có giá trị là: 10100011</label>
+                    <label><input type="radio" name="q117" value="b"> b) 111 chuyển sang nhị phân sẽ có giá trị là : 01101111</label>
+                    <label><input type="radio" name="q117" value="c"> c) 125 chuyển sang nhị phân sẽ có giá trị là : 01111101</label>
+                    <label><input type="radio" name="q117" value="d"> d) 178 chuyển sang nhị phân sẽ có giá trị là : 10110010</label>
+                    <div class="feedback" id="feedback-q117"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 118: Địa chỉ vật lí (MAC Address) nào sau đây là không đúng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q118" value="a"> a) 00-2A-43-16-23-A8</label>
+                    <label><input type="radio" name="q118" value="b"> b) 00-2A-43-3E-33-A0</label>
+                    <label><input type="radio" name="q118" value="c"> c) 00-4G-43-26-36-0D</label>
+                    <label><input type="radio" name="q118" value="d"> d) 00-C0-9F-C3-27-F6</label>
+                    <div class="feedback" id="feedback-q118"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 119: Tiện ích TCP/IP nào dùng để kiểm tra sự kết nối mạng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q119" value="a"> a) Route</label>
+                    <label><input type="radio" name="q119" value="b"> b) ARP</label>
+                    <label><input type="radio" name="q119" value="c"> c) Ping</label>
+                    <label><input type="radio" name="q119" value="d"> d) Netstat</label>
+                    <div class="feedback" id="feedback-q119"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 120: Địa chỉ IP nào sau đây cùng địa chỉ mạng (Subnet) với địa chỉ IP 192.168.1.10/24?</p>
+                <div class="options">
+                    <label><input type="radio" name="q120" value="a"> a) 192.168.10.1/24</label>
+                    <label><input type="radio" name="q120" value="b"> b) 192.168.1.256/24</label>
+                    <label><input type="radio" name="q120" value="c"> c) 192.168.11.12/24</label>
+                    <label><input type="radio" name="q120" value="d"> d) 192.168.1.33/24</label>
+                    <div class="feedback" id="feedback-q120"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 121: HTML viết tắt của</p>
+                <div class="options">
+                    <label><input type="radio" name="q121" value="a"> a) HighText Media Language</label>
+                    <label><input type="radio" name="q121" value="b"> b) HighText Markup Language</label>
+                    <label><input type="radio" name="q121" value="c"> c) HyperText Markup Language</label>
+                    <label><input type="radio" name="q121" value="d"> d) HyperText Media Language</label>
+                    <div class="feedback" id="feedback-q121"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 122: HTML là viết tắt của cụm từ nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q122" value="a"> a) HyperText Mark Language</label>
+                    <label><input type="radio" name="q122" value="b"> b) Home Markup Language</label>
+                    <label><input type="radio" name="q122" value="c"> c) HyperText Markup Language</label>
+                    <label><input type="radio" name="q122" value="d"> d) Hyperlinks and Text Markup Language</label>
+                    <div class="feedback" id="feedback-q122"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 123: Thứ tự nào đúng cấu trúc đúng của một trang web?</p>
+                <div class="options">
+                    <label><input type="radio" name="q123" value="a"> a) html> /html> head> /head> body> </body></label>
+                    <label><input type="radio" name="q123" value="b"> b) head> html> /html> body> /body> </head></label>
+                    <label><input type="radio" name="q123" value="c"> c) html> head> body> /body> /head> </html></label>
+                    <label><input type="radio" name="q123" value="d"> d) html> head> /head> body> /body> </html></label>
+                    <div class="feedback" id="feedback-q123"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 124: Để hiển thị tiêu đề của trang web là : Welcome to HTML</p>
+                <div class="options">
+                    <label><input type="radio" name="q124" value="a"> a) BODY>TITLE>Welcome to HTML/TITLE>/BODY></label>
+                    <label><input type="radio" name="q124" value="b"> b) BODY>Welcome to HTML/BODY></label>
+                    <label><input type="radio" name="q124" value="c"> c) HEAD>Welcome to HTML/HEAD></label>
+                    <label><input type="radio" name="q124" value="d"> d) HEAD>TITLE>Welcome to HTML/TITLE>/HEAD></label>
+                    <div class="feedback" id="feedback-q124"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 125: Phát biểu nào sau đây đúng</p>
+                <div class="options">
+                    <label><input type="radio" name="q125" value="a"> a) Hầu hết các thẻ (tag) trong HTML đều có thẻ mở và thẻ đóng</label>
+                    <label><input type="radio" name="q125" value="b"> b) Tất cả các thẻ (tag) trong HTML phải có thẻ mở và thẻ đóng</label>
+                    <label><input type="radio" name="q125" value="c"> c) Tất cả các thẻ (tag) trong HTML không cần thẻ đóng</label>
+                    <label><input type="radio" name="q125" value="d"> d) Tất cả các câu trên đều sai</label>
+                    <div class="feedback" id="feedback-q125"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 126: Phát biểu nào sau đây đúng</p>
+                <div class="options">
+                    <label><input type="radio" name="q126" value="a"> a) Các thẻ (tag) trong HTML không phân biệt chữ thường và chữ hoa</label>
+                    <label><input type="radio" name="q126" value="b"> b) Một số thẻ (tag) trong HTML có phân biệt chữ thường và chữ hoa</label>
+                    <label><input type="radio" name="q126" value="c"> c) Tất cả các thẻ (tag) trong HTML có phân biệt chữ thường và chữ hoa</label>
+                    <label><input type="radio" name="q126" value="d"> d) Tất cả các câu trên đều sai</label>
+                    <div class="feedback" id="feedback-q126"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 127: Để thiết lập màu nền cho trang web ta dùng</p>
+                <div class="options">
+                    <label><input type="radio" name="q127" value="a"> a) &lt;Body Background=&quot;#0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q127" value="b"> b) &lt;Body color=&quot;#0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q127" value="c"> c) &lt;Body bgcolor=&quot;#0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q127" value="d"> d) &lt;Background color=&quot;#0000FF&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q127"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 128: Dòng nào dưới đây cho phép đặt màu nền cho trang web?</p>
+                <div class="options">
+                    <label><input type="radio" name="q128" value="a"> a) &lt;body color=&quot;yellow&quot;&gt;</label>
+                    <label><input type="radio" name="q128" value="b"> b) &lt;backgroundColor=&quot;yellow&quot;&gt;</label>
+                    <label><input type="radio" name="q128" value="c"> c) &lt;body backgroundColor=&quot;yellow&quot;&gt;</label>
+                    <label><input type="radio" name="q128" value="d"> d) &lt;body bgColor=&quot;yellow&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q128"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 129: Dòng nào dưới đây cho phép chèn ảnh nền vào trang web?</p>
+                <div class="options">
+                    <label><input type="radio" name="q129" value="a"> a) &lt;BackGround=rose.gif&gt;</label>
+                    <label><input type="radio" name="q129" value="b"> b) &lt;bgImage=rose.gif&gt;</label>
+                    <label><input type="radio" name="q129" value="c"> c) &lt;Body bgImage=rose.gif&gt;</label>
+                    <label><input type="radio" name="q129" value="d"> d) &lt;Body BackGround=rose.gif&gt;</label>
+                    <div class="feedback" id="feedback-q129"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 130: Thuộc tính nào của thẻ &lt;BODY&gt; cho phép định nghĩa màu của liên kết chưa được xem?</p>
+                <div class="options">
+                    <label><input type="radio" name="q130" value="a"> a) alink</label>
+                    <label><input type="radio" name="q130" value="b"> b) vlink</label>
+                    <label><input type="radio" name="q130" value="c"> c) link</label>
+                    <label><input type="radio" name="q130" value="c"> c) text</label>
+                    <div class="feedback" id="feedback-q130"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 131: Để thiết lập màu chữ cho trang web ta dùng</p>
+                <div class="options">
+                    <label><input type="radio" name="q131" value="a"> a) &lt;Body Color=&quot;#0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q131" value="b"> b) &lt;Body Text=&quot;#0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q131" value="c"> c) &lt;Text Color=&quot;0000FF&quot;&gt;</label>
+                    <label><input type="radio" name="q131" value="d"> d) Cả a, b, c đều sai</label>
+                    <div class="feedback" id="feedback-q131"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 132: Thẻ nào tạo dòng tiêu đề lớn nhất?</p>
+                <div class="options">
+                    <label><input type="radio" name="q132" value="a"> a) &lt;H1&gt;</label>
+                    <label><input type="radio" name="q132" value="b"> b) &lt;Heading1&gt;</label>
+                    <label><input type="radio" name="q132" value="c"> c) &lt;H6&gt;</label>
+                    <label><input type="radio" name="q132" value="d"> c) &lt;Header6&gt;</label>
+                    <div class="feedback" id="feedback-q132"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 133: Thẻ nào dưới đây đặt heading ở cỡ chữ lớn nhất?</p>
+                <div class="options">
+                    <label><input type="radio" name="q133" value="a"> a) &lt;head&gt;</label>
+                    <label><input type="radio" name="q133" value="b"> b) &lt;h6&gt;</label>
+                    <label><input type="radio" name="q133" value="c"> c) &lt;h1&gt;</label>
+                    <label><input type="radio" name="q133" value="d"> c) &lt;head style=”largest”&gt;</label>
+                    <div class="feedback" id="feedback-q133"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 134: Thẻ nào sau đây cho phép ngắt dòng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q134" value="a"> a) &lt;lb&gt;</label>
+                    <label><input type="radio" name="q134" value="b"> b) &lt;br&gt;</label>
+                    <label><input type="radio" name="q134" value="c"> b) &lt;break&gt;</label>
+                    <label><input type="radio" name="q134" value="d"> b) &lt;newline&gt;</label>
+                    <div class="feedback" id="feedback-q134"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 135: Thẻ nào dùng để ngắt dòng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q135" value="a"> a) &lt;Enter&gt;</label>
+                    <label><input type="radio" name="q135" value="b"> b) &lt;Break&gt;</label>
+                    <label><input type="radio" name="q135" value="c"> b) &lt;newline&gt;</label>
+                    <label><input type="radio" name="q135" value="d"> b) &lt;br&gt;</label>
+                    <div class="feedback" id="feedback-q135"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 136: Thẻ nào dùng để tạo đường kẻ ngang?</p>
+                <div class="options">
+                    <label><input type="radio" name="q136" value="a"> a) &lt;Line&gt;</label>
+                    <label><input type="radio" name="q136" value="b"> b) &lt;Hr&gt;</label>
+                    <label><input type="radio" name="q136" value="c"> b) &lt;Br&gt;</label>
+                    <label><input type="radio" name="q136" value="d"> b) &lt;Li&gt;</label>
+                    <div class="feedback" id="feedback-q136"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 137: Đâu là tag tạo ra chữ in đậm?</p>
+                <div class="options">
+                    <label><input type="radio" name="q137" value="a"> a) &lt;b&gt;</label>
+                    <label><input type="radio" name="q137" value="b"> b) &lt;bold&gt;</label>
+                    <label><input type="radio" name="q137" value="c"> c) text</label>
+                    <label><input type="radio" name="q137" value="d"> d) &lt;Header6&gt;</label>
+                    <div class="feedback" id="feedback-q137"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 138: Đâu là tag tạo ra chữ in nghiêng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q138" value="a"> a) &lt;ii&gt;</label>
+                    <label><input type="radio" name="q138" value="b"> b) &lt;italic&gt;</label>
+                    <label><input type="radio" name="q138" value="c"> a) &lt;i&gt;</label>
+                    <label><input type="radio" name="q138" value="d"> b) &lt;u&gt;</label>
+                    <div class="feedback" id="feedback-q138"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 139: Tag nào tạo ra 1 danh sách đứng đầu bằng số?</p>
+                <div class="options">
+                    <label><input type="radio" name="q139" value="a"> a) &lt;ul&gt;</label>
+                    <label><input type="radio" name="q139" value="b"> b) &lt;list&gt;</label>
+                    <label><input type="radio" name="q139" value="c"> c) &lt;ol&gt;</label>
+                    <label><input type="radio" name="q139" value="d"> c) &lt;dl&gt;</label>
+                    <div class="feedback" id="feedback-q139"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 140: Tag nào tạo ra 1 danh sách đứng đầu bởi dấu chấm?</p>
+                <div class="options">
+                    <label><input type="radio" name="q140" value="a"> a) &lt;list&gt;</label>
+                    <label><input type="radio" name="q140" value="b"> b) &lt;ul&gt;</label>
+                    <label><input type="radio" name="q140" value="c"> a) &lt;ol&gt;</label>
+                    <label><input type="radio" name="q140" value="b"> b) &lt;dl&gt;</label>
+                    <div class="feedback" id="feedback-q140"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 141: Để tạo nhạc nền cho trang web</p>
+                <div class="options">
+                    <label><input type="radio" name="q141" value="a"> a) &lt;bgSound&gt;</label>
+                    <label><input type="radio" name="q141" value="b"> b) &lt;sound&gt;</label>
+                    <label><input type="radio" name="q141" value="c"> c) &lt;BackgroundSound&gt;</label>
+                    <label><input type="radio" name="q141" value="d"> d) &lt;Music&gt;</label>
+                    <div class="feedback" id="feedback-q141"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 142: Thẻ nào dùng để chèn hình ảnh vào trang web?</p>
+                <div class="options">
+                    <label><input type="radio" name="q142" value="a"> a) &lt;Image&gt;</label>
+                    <label><input type="radio" name="q142" value="b"> b) &lt;Img&gt;</label>
+                    <label><input type="radio" name="q142" value="c"> c) &lt;Picture&gt;</label>
+                    <label><input type="radio" name="q142" value="d"> c) &lt;photo&gt;</label>
+                    <div class="feedback" id="feedback-q142"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 143: Tag nào dùng để chèn 1 hình vào web?</p>
+                <div class="options">
+                    <label><input type="radio" name="q143" value="a"> a) &lt;image src=&quot;image.gif&quot;&gt;</label>
+                    <label><input type="radio" name="q143" value="b"> b) &lt;img&gt;image.gif&lt;/img&gt;</label>
+                    <label><input type="radio" name="q143" value="c"> c) &lt;img src=&quot;image.gif&quot;&gt;</label>
+                    <label><input type="radio" name="q143" value="d"> d) &lt;img href=&quot;image.gif&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q143"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 144: Dòng nào tạo liên kết đúng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q144" value="a"> a) &lt;a url=&quot;http://google.com&quot;&gt;Tìm kiếm&lt;/a&gt;</label>
+                    <label><input type="radio" name="q144" value="b"> b) &lt;a link=&quot;http://google.com&quot;&gt;Tìm kiếm&lt;/a&gt;</label>
+                    <label><input type="radio" name="q144" value="c"> c) &lt;a name=&quot;http://google.com&quot;&gt;Tìm kiếm&lt;/a&gt;</label>
+                    <label><input type="radio" name="q144" value="d"> d) &lt;a href=&quot;http://google.com&quot;&gt;Tìm kiếm&lt;/a&gt;</label>
+                    <div class="feedback" id="feedback-q144"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 145: Dòng nào tạo liên kết đến để gửi email?</p>
+                <div class="options">
+                    <label><input type="radio" name="q145" value="a"> a) &lt;a href=&quot;mailto:xxx@yyy&quot;&gt;</label>
+                    <label><input type="radio" name="q145" value="b"> b) &lt;a href=&quot;xxx@yyy&quot;&gt;</label>
+                    <label><input type="radio" name="q145" value="c"> c) &lt;mail&gt;xxx@yyy&lt;/mail&gt;</label>
+                    <label><input type="radio" name="q145" value="d"> d) &lt;mail href=&quot;xxx@yyy&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q145"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 146: Dòng nào dùng để mở liên kết trong một cửa sổ (window) mới?</p>
+                <div class="options">
+                    <label><input type="radio" name="q146" value="a"> a) &lt;a href=&quot;vnits.biz&quot; new&gt;</label>
+                    <label><input type="radio" name="q146" value="b"> b) &lt;a href=&quot;vnits.biz&quot; target=&quot;new&quot;&gt;</label>
+                    <label><input type="radio" name="q146" value="c"> c) &lt;a href=&quot;vnits.biz&quot; target=&quot;_blank&quot;&gt;</label>
+                    <label><input type="radio" name="q146" value="d"> d) &lt;a href=&quot;vnits.biz&quot; target=&quot;_top&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q146"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 147: Những tag nào sau đây dùng để tạo bảng (table)?</p>
+                <div class="options">
+                    <label><input type="radio" name="q147" value="a"> a) &lt;Table&gt; &lt;Tr&gt; &lt;Td&gt;</label>
+                    <label><input type="radio" name="q147" value="b"> b) &lt;Table&gt; &lt;Tr&gt; &lt;Tc&gt;</label>
+                    <label><input type="radio" name="q147" value="c"> c) &lt;Table&gt; &lt;Tt&gt; &lt;Td&gt;</label>
+                    <label><input type="radio" name="q147" value="d"> d) &lt;Table&gt; &lt;Head&gt; &lt;Body&gt;</label>
+                    <div class="feedback" id="feedback-q147"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 148: Thẻ nào dùng canh trái nội dung trong ô của table?</p>
+                <div class="options">
+                    <label><input type="radio" name="q148" value="a"> a) &lt;tdleft&gt;</label>
+                    <label><input type="radio" name="q148" value="b"> b) &lt;td valign=&quot;left&quot;&gt;</label>
+                    <label><input type="radio" name="q148" value="c"> c) &lt;td align=&quot;left&quot;&gt;</label>
+                    <label><input type="radio" name="q148" value="d"> d) &lt;td leftalign&gt;</label>
+                    <div class="feedback" id="feedback-q148"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 149: Đâu là tag căn lề trái cho nội dung 1 ô trong bảng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q149" value="a"> a) &lt;tdleft&gt;</label>
+                    <label><input type="radio" name="q149" value="b"> b) &lt;td valign=&quot;left&quot;&gt;</label>
+                    <label><input type="radio" name="q149" value="c"> c) &lt;td align=&quot;left&quot;&gt;</label>
+                    <label><input type="radio" name="q149" value="d"> d) &lt;td leftalign&gt;</label>
+                    <div class="feedback" id="feedback-q149"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 150: Tag nào tạo ra 1 checkbox?</p>
+                <div class="options">
+                    <label><input type="radio" name="q150" value="a"> a) &lt;check&gt;</label>
+                    <label><input type="radio" name="q150" value="b"> b) &lt;input type=&quot;check&quot;&gt;</label>
+                    <label><input type="radio" name="q150" value="c"> c) &lt;checkbox&gt;</label>
+                    <label><input type="radio" name="q150" value="d"> d) &lt;input type=&quot;checkbox&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q150"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 151: Tag nào tạo ra 1 textbox?</p>
+                <div class="options">
+                    <label><input type="radio" name="q151" value="a"> a) &lt;textbox&gt;</label>
+                    <label><input type="radio" name="q151" value="b"> b) &lt;input type=&quot;textbox&quot;&gt;</label>
+                    <label><input type="radio" name="q151" value="c"> c) &lt;input type=&quot;text&quot;&gt;</label>
+                    <label><input type="radio" name="q151" value="d"> d) &lt;input type=&quot;textfield&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q151"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 152: Tag nào tạo ra 1 ô nhập password?</p>
+                <div class="options">
+                    <label><input type="radio" name="q152" value="a"> a) &lt;password&gt;</label>
+                    <label><input type="radio" name="q152" value="b"> b) &lt;input type=&quot;pass&quot;&gt;</label>
+                    <label><input type="radio" name="q152" value="c"> c) &lt;password type=text&gt;</label>
+                    <label><input type="radio" name="q152" value="d"> d) &lt;input type=&quot;password&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q152"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 153: Tag nào tạo ra 1 vùng nhập văn bản (text area)?</p>
+                <div class="options">
+                    <label><input type="radio" name="q153" value="a"> a) &lt;textarea&gt;</label>
+                    <label><input type="radio" name="q153" value="b"> b) &lt;input type=&quot;textbox&quot;&gt;</label>
+                    <label><input type="radio" name="q153" value="c"> c) &lt;input type=&quot;textarea&quot;&gt;</label>
+                    <label><input type="radio" name="q153" value="d"> d) &lt;input type=&quot;text&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q153"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 154: Tag nào tạo ra 1 drop-down list?</p>
+                <div class="options">
+                    <label><input type="radio" name="q154" value="a"> a) &lt;select&gt;</label>
+                    <label><input type="radio" name="q154" value="b"> b) &lt;list&gt;</label>
+                    <label><input type="radio" name="q154" value="c"> c) &lt;input type=&quot;dropdown&quot;&gt;</label>
+                    <label><input type="radio" name="q154" value="d"> d) &lt;input type=&quot;list&quot;&gt;</label>
+                    <div class="feedback" id="feedback-q154"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 155: Mã màu #0000FF tương ứng với tên màu nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q155" value="a"> a) Red</label>
+                    <label><input type="radio" name="q155" value="b"> b) Yellow</label>
+                    <label><input type="radio" name="q155" value="c"> c) Green</label>
+                    <label><input type="radio" name="q155" value="d"> c) Blue</label>
+                    <div class="feedback" id="feedback-q155"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 156: Thẻ &lt;Title&gt; nằm trong cặp thẻ nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q156" value="a"> a) &lt;Head&gt;…&lt;/Head&gt;</label>
+                    <label><input type="radio" name="q156" value="b"> b) &lt;Arm&gt;…&lt;/Arm&gt;</label>
+                    <label><input type="radio" name="q156" value="c"> c) &lt;Body&gt;…&lt;/Body&gt;</label>
+                    <label><input type="radio" name="q156" value="e"> d) &lt;Footer&gt;…&lt;/Footer&gt;</label>
+                    <div class="feedback" id="feedback-q156"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 157: Để thêm dòng vào bảng dùng thẻ nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q157" value="a"> a) &lt;td&gt; và &lt;/td&gt;</label>
+                    <label><input type="radio" name="q157" value="b"> b) &lt;cr&gt; và &lt;/cr&gt;</label>
+                    <label><input type="radio" name="q157" value="c"> c) &lt;tr&gt; và &lt;/tr&gt;</label>
+                    <label><input type="radio" name="q157" value="d"> d) &lt;row&gt; và &lt;/row&gt;</label>
+                    <div class="feedback" id="feedback-q157"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 158: Thẻ nào tạo hiệu ứng chữ đậm?</p>
+                <div class="options">
+                    <label><input type="radio" name="q158" value="a"> a) &lt;dark&gt;</label>
+                    <label><input type="radio" name="q158" value="b"> b) &lt;strong&gt;</label>
+                    <label><input type="radio" name="q158" value="c"> c) &lt;bold&gt;</label>
+                    <label><input type="radio" name="q158" value="d"> d) &lt;fat&gt;</label>
+                    <div class="feedback" id="feedback-q158"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 159: Thuộc tính nào của thẻ &lt;font&gt; dùng để chọn font chữ?</p>
+                <div class="options">
+                    <label><input type="radio" name="q159" value="a"> a) Character</label>
+                    <label><input type="radio" name="q159" value="b"> b) Face</label>
+                    <label><input type="radio" name="q159" value="c"> c) Font</label>
+                    <label><input type="radio" name="q159" value="d"> d) Text-type</label>
+                    <div class="feedback" id="feedback-q159"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 160: Thuộc tính colspan=n chỉ có thể thêm vào thẻ nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q160" value="a"> a) &lt;table&gt;</label>
+                    <label><input type="radio" name="q160" value="b"> b) &lt;tr&gt;</label>
+                    <label><input type="radio" name="q160" value="c"> c) &lt;td&gt;</label>
+                    <label><input type="radio" name="q160" value="d"> d) &lt;column&gt;</label>
+                    <div class="feedback" id="feedback-q160"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 161: Trong Device Manager có thể nhận biết các thiết bị chưa được cài đặt driver tại mục?</p>
+                <div class="options">
+                    <label><input type="radio" name="q161" value="a"> a) Other Device</label>
+                    <label><input type="radio" name="q161" value="b"> b) Monitor</label>
+                    <label><input type="radio" name="q161" value="c"> c) System Device</label>
+                    <label><input type="radio" name="q161" value="d"> d) Computer</label>
+                    <div class="feedback" id="feedback-q161"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 162: Loại Bus nào sau đây có trong DDR2 RAM?</p>
+                <div class="options">
+                    <label><input type="radio" name="q162" value="a"> a) 66</label>
+                    <label><input type="radio" name="q162" value="b"> b) 100</label>
+                    <label><input type="radio" name="q162" value="c"> c) 133</label>
+                    <label><input type="radio" name="q162" value="d"> d) 800</label>
+                    <div class="feedback" id="feedback-q162"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 163: Thuật ngữ ATA là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q163" value="a"> a) Một chuẩn giao tiếp kết nối giữa máy tính và các ổ đĩa cứng, ổ đĩa quang trong máy tính.</label>
+                    <label><input type="radio" name="q163" value="b"> b) Một hãng sản xuất RAM</label>
+                    <label><input type="radio" name="q163" value="c"> c) Số serial của máy tính.</label>
+                    <label><input type="radio" name="q163" value="d"> d) Một chuẩn nguồn dùng tiết kiệm điện cho máy tính.</label>
+                    <div class="feedback" id="feedback-q163"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 164: Trong hệ điều hành Windows XP, tiện ích nào sau đây dùng để xóa những tập tin tạm trên ổ cứng?</p>
+                <div class="options">
+                    <label><input type="radio" name="q164" value="a"> a) Disk Cleanup</label>
+                    <label><input type="radio" name="q164" value="b"> b) Disk Management</label>
+                    <label><input type="radio" name="q164" value="c"> c) Scandisk</label>
+                    <label><input type="radio" name="q164" value="d"> d) Disk Defragmenter</label>
+                    <div class="feedback" id="feedback-q164"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 165: Lựa chọn nào sau đây không phải là dung lượng của bộ nhớ ngoài?</p>
+                <div class="options">
+                    <label><input type="radio" name="q165" value="a"> a) 1.80 Mhz</label>
+                    <label><input type="radio" name="q165" value="b"> b) 160 GB</label>
+                    <label><input type="radio" name="q165" value="c"> c) 200 GB</label>
+                    <label><input type="radio" name="q165" value="d"> d) 512 MB</label>
+                    <div class="feedback" id="feedback-q165"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 166: Nguyên nhân làm xuất hiện thông báo "CMOSSettings Wrong, CMOSDate/Time Not Set. Press F1 to Run Setup. Press F2 To Load default values and Continue"?</p>
+                <div class="options">
+                    <label><input type="radio" name="q166" value="a"> a) Lỗi BIOS</label>
+                    <label><input type="radio" name="q166" value="b"> b) Không có ổ đĩa cứng</label>
+                    <label><input type="radio" name="q166" value="c"> c) Không có hệ điều hành</label>
+                    <label><input type="radio" name="q166" value="d"> d) Hết pin CMOS</label>
+                    <div class="feedback" id="feedback-q166"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 167: Thiết bị nào sau đây hiện nay không còn phổ biến?</p>
+                <div class="options">
+                    <label><input type="radio" name="q167" value="a"> a) Floppy Disk Drive</label>
+                    <label><input type="radio" name="q167" value="b"> b) Hard Disk Drive</label>
+                    <label><input type="radio" name="q167" value="c"> c) Đĩa CD</label>
+                    <label><input type="radio" name="q167" value="d"> d) Đĩa DVD</label>
+                    <div class="feedback" id="feedback-q167"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 168: Máy tính có thể gắn tối đa bao nhiêu ổ đĩa cứng qua chuẩn IDE?</p>
+                <div class="options">
+                    <label><input type="radio" name="q168" value="a"> a) 1</label>
+                    <label><input type="radio" name="q168" value="b"> b) 2</label>
+                    <label><input type="radio" name="q168" value="c"> c) 3</label>
+                    <label><input type="radio" name="q168" value="d"> d) 4</label>
+                    <div class="feedback" id="feedback-q168"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 169: Hãng sản xuất nào sau đây không sản xuất mainboard máy tính?</p>
+                <div class="options">
+                    <label><input type="radio" name="q169" value="a"> a) Gigabyte</label>
+                    <label><input type="radio" name="q169" value="b"> b) Asus</label>
+                    <label><input type="radio" name="q169" value="c"> c) LG</label>
+                    <label><input type="radio" name="q170" value="d"> d) ECS</label>
+                    <div class="feedback" id="feedback-q169"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 170: Loại Bus nào sau đây không có trong RAM?</p>
+                <div class="options">
+                    <label><input type="radio" name="q170" value="a"> a) 444</label>
+                    <label><input type="radio" name="q170" value="b"> b) 800</label>
+                    <label><input type="radio" name="q170" value="c"> c) 667</label>
+                    <label><input type="radio" name="q170" value="d"> d) 400</label>
+                    <div class="feedback" id="feedback-q170"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 171: Khi khởi động máy tính không thấy bất cứ tín hiệu nào trên màn hình, khả năng nào sau đây không ảnh hưởng đến sự cố trên?</p>
+                <div class="options">
+                    <label><input type="radio" name="q171" value="a"> a) Đĩa cứng bị hư.</label>
+                    <label><input type="radio" name="q171" value="b"> b) Mainboard bị hư.</label>
+                    <label><input type="radio" name="q171" value="c"> c) Ram cắm chưa sát.</label>
+                    <label><input type="radio" name="q171" value="d"> d) Nguồn bị hư.</label>
+                    <div class="feedback" id="feedback-q171"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 172: RAM tối thiểu để sử dụng hệ điều hành Windows XP là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q172" value="a"> a) 64 MB</label>
+                    <label><input type="radio" name="q172" value="b"> b) 128 MB</label>
+                    <label><input type="radio" name="q172" value="c"> c) 512 MB</label>
+                    <label><input type="radio" name="q172" value="d"> c) 1024 MB</label>
+                    <div class="feedback" id="feedback-q172"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 173: Sắp xếp theo thứ tự tăng dần về tốc độ các loại bộ nhớ:</p>
+                <div class="options">
+                    <label><input type="radio" name="q173" value="a"> a) Bộ nhớ chính, bộ nhớ phụ, bộ nhớ cache</label>
+                    <label><input type="radio" name="q173" value="b"> b) Bộ nhớ phụ, bộ nhớ chính, bộ nhớ cache</label>
+                    <label><input type="radio" name="q173" value="c"> c) Bộ nhớ cache, bộ nhớ phụ, bộ nhớ chính</label>
+                    <label><input type="radio" name="q173" value="d"> d) Bộ nhớ cache, bộ nhớ chính, bộ nhớ phụ</label>
+                    <div class="feedback" id="feedback-q173"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 174: Đối với card màn hình onboard, để cài đặt driver một cách chính xác cần căn cứ vào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q174" value="a"> a) Loại CPU và chip cầu nam</label>
+                    <label><input type="radio" name="q174" value="b"> b) RAM và ổ đĩa cứng</label>
+                    <label><input type="radio" name="q174" value="c"> c) Mã mainboard, chip cầu bắc</label>
+                    <label><input type="radio" name="q174" value="d"> d) Không thể xác định</label>
+                    <div class="feedback" id="feedback-q174"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 175: Để định dạng nhanh phân vùng cho đĩa cứng theo định dạng NTFS, trong quá trình cài đặt hệ điều hành cần chọn:</p>
+                <div class="options">
+                    <label><input type="radio" name="q175" value="a"> a) Format the partition using the NTFS file system (quick)</label>
+                    <label><input type="radio" name="q175" value="b"> b) Format the partition using the ntfs file system</label>
+                    <label><input type="radio" name="q175" value="c"> c) Format the partition using the FAT file system (quick)</label>
+                    <label><input type="radio" name="q175" value="d"> d) Format the partition using the FAT file system</label>
+                    <div class="feedback" id="feedback-q175"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 176: Đặc điểm của dòng vi xử lý Celeron của Intel là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q176" value="a"> a) Dùng cho người dùng phổ thông</label>
+                    <label><input type="radio" name="q176" value="b"> b) Dùng cho người dùng cao cấp</label>
+                    <label><input type="radio" name="q176" value="c"> c) Dùng cho máy chủ</label>
+                    <label><input type="radio" name="q176" value="d"> d) Tốc độ xử lý cao</label>
+                    <div class="feedback" id="feedback-q176"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 177: Thiết lập jumper master cho ổ đĩa cứng để nhằm mục đích?</p>
+                <div class="options">
+                    <label><input type="radio" name="q177" value="a"> a) Xác định ổ đĩa phụ</label>
+                    <label><input type="radio" name="q177" value="b"> b) Theo mặc định của nhà sản xuất</label>
+                    <label><input type="radio" name="q177" value="c"> c) Giúp tăng tốc truy xuất đĩa cứng</label>
+                    <label><input type="radio" name="q177" value="d"> d) Xác định ổ đĩa chính</label>
+                    <div class="feedback" id="feedback-q177"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 178: Trong hệ điều hành Windows 7 có thể tiến hành phân chia đĩa cứng bằng tiện ích nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q178" value="a"> a) Device Manager</label>
+                    <label><input type="radio" name="q178" value="b"> b) Disk Management</label>
+                    <label><input type="radio" name="q178" value="c"> c) Disk Defragment</label>
+                    <label><input type="radio" name="q178" value="d"> c) Disk Cleanup</label>
+                    <div class="feedback" id="feedback-q178"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 179: VGA card là một thiết bị giao tiếp giữa?</p>
+                <div class="options">
+                    <label><input type="radio" name="q179" value="a"> a) Máy in và máy tính</label>
+                    <label><input type="radio" name="q179" value="b"> b) Máy Scan và máy tính</label>
+                    <label><input type="radio" name="q179" value="c"> c) Màn hình và máy tính</label>
+                    <label><input type="radio" name="q179" value="d"> d) Máy tính và card net</label>
+                    <div class="feedback" id="feedback-q179"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 180: Để máy tính hoạt động tốt thì các thiết bị phải?</p>
+                <div class="options">
+                    <label><input type="radio" name="q180" value="a"> a) Cùng hãng sản xuất</label>
+                    <label><input type="radio" name="q180" value="b"> b) Cùng thời gian chế tạo</label>
+                    <label><input type="radio" name="q180" value="c"> c) Cần đồng bộ</label>
+                    <label><input type="radio" name="q180" value="d"> d) Là thiết bị mới sản xuất</label>
+                    <div class="feedback" id="feedback-q180"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 181: Tốc độ xử lý của CPU trong hệ thống máy tính được đo bằng đơn vị nào?</p>
+                <div class="options">
+                    <label><input type="radio" name="q181" value="a"> a) Mhz</label>
+                    <label><input type="radio" name="q181" value="b"> b) RPM</label>
+                    <label><input type="radio" name="q181" value="c"> c) Megabyte</label>
+                    <label><input type="radio" name="q181" value="d"> d) Gigabyte</label>
+                    <div class="feedback" id="feedback-q181"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 182: Các thiết bị nào dưới đây không được xếp vào nhóm các thiết bị ngoại vi?</p>
+                <div class="options">
+                    <label><input type="radio" name="q182" value="a"> a) Ram, Rom</label>
+                    <label><input type="radio" name="q182" value="b"> b) Màn hình</label>
+                    <label><input type="radio" name="q182" value="c"> c) Bàn phím và chuột</label>
+                    <label><input type="radio" name="q182" value="d"> d) Đĩa cứng</label>
+                    <div class="feedback" id="feedback-q182"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 183: Khối nào sau đây không là khối cơ bản của CPU?</p>
+                <div class="options">
+                    <label><input type="radio" name="q183" value="a"> a) Khối điều khiển</label>
+                    <label><input type="radio" name="q183" value="b"> b) Khối định thì</label>
+                    <label><input type="radio" name="q183" value="c"> c) Khối ALU</label>
+                    <label><input type="radio" name="q183" value="d"> d) Khối bộ nhớ cache</label>
+                    <div class="feedback" id="feedback-q183"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 184: Bộ nguồn ATX hiện nay phổ biến sử dụng bao nhiêu chân?</p>
+                <div class="options">
+                    <label><input type="radio" name="q184" value="a"> a) 12 chân</label>
+                    <label><input type="radio" name="q184" value="b"> b) 18 chân</label>
+                    <label><input type="radio" name="q184" value="c"> c) 24 chân</label>
+                    <label><input type="radio" name="q184" value="d"> d) 36 chân</label>
+                    <div class="feedback" id="feedback-q184"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 185: Lệnh Create trong Partition Magic có tác dụng gì sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q185" value="a"> a) Xóa phân vùng</label>
+                    <label><input type="radio" name="q185" value="b"> b) Định dạng phân vùng</label>
+                    <label><input type="radio" name="q185" value="c"> c) Tạo phân vùng mới</label>
+                    <label><input type="radio" name="q185" value="d"> d) Thay đổi kích thước phân vùng</label>
+                    <div class="feedback" id="feedback-q185"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 186: Cổng PS/2 màu xanh lá cây được kết nối với thiết bị nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q186" value="a"> a) Scanner</label>
+                    <label><input type="radio" name="q186" value="b"> b) Chuột</label>
+                    <label><input type="radio" name="q186" value="c"> c) Bàn phím</label>
+                    <label><input type="radio" name="q186" value="d"> d) Loa</label>
+                    <div class="feedback" id="feedback-q186"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 187: Khi khởi động máy tính, loa tín hiệu phát ra tiếng beep dài liên tục, lỗi do thiết bị nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q187" value="a"> a) MainBoard</label>
+                    <label><input type="radio" name="q187" value="b"> b) VGA Card</label>
+                    <label><input type="radio" name="q187" value="c"> c) Ram</label>
+                    <label><input type="radio" name="q187" value="d"> d) CPU</label>
+                    <div class="feedback" id="feedback-q187"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 188: Màn hình được kết nối qua cổng nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q188" value="a"> a) LPT</label>
+                    <label><input type="radio" name="q188" value="b"> b) COM</label>
+                    <label><input type="radio" name="q188" value="c"> c) Firewire</label>
+                    <label><input type="radio" name="q188" value="d"> d) VGA</label>
+                    <div class="feedback" id="feedback-q188"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 189: Máy Scanner được kết nối máy tính thông qua cổng nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q189" value="a"> a) USB</label>
+                    <label><input type="radio" name="q189" value="b"> b) LPT</label>
+                    <label><input type="radio" name="q189" value="c"> c) RJ11</label>
+                    <label><input type="radio" name="q189" value="d"> d) RJ45</label>
+                    <div class="feedback" id="feedback-q189"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 190: Trong quá trình kiểm tra và sửa chữa máy tính, chỉ nên cấp nguồn cho ổ đĩa cứng khi máy đã hoạt động thành công để:</p>
+                <div class="options">
+                    <label><input type="radio" name="q190" value="a"> a) Giúp tiến trình khởi động nhanh hơn</label>
+                    <label><input type="radio" name="q190" value="b"> b) Tiết kiệm điện</label>
+                    <label><input type="radio" name="q190" value="c"> c) Đảm bảo an toàn dữ liệu trên đĩa cứng</label>
+                    <label><input type="radio" name="q190" value="d"> d) Chưa có hệ điều hành</label>
+                    <div class="feedback" id="feedback-q190"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 191: Loại Socket dùng cho thế hệ CPU Core 2 Dual là?</p>
+                <div class="options">
+                    <label><input type="radio" name="q191" value="a"> a) 370</label>
+                    <label><input type="radio" name="q191" value="b"> b) 478</label>
+                    <label><input type="radio" name="q191" value="c"> c) 775</label>
+                    <label><input type="radio" name="q191" value="d"> d) AM2</label>
+                    <div class="feedback" id="feedback-q191"></div>
+                </div>
+            </div>
+            <div class="question">
+                <p>Câu 192: Tốc độ Bus của Ram PC2-5400 là bao nhiêu Mhz?</p>
+                <div class="options">
+                    <label><input type="radio" name="q192" value="a"> a) 400</label>
+                    <label><input type="radio" name="q192" value="b"> b) 533</label>
+                    <label><input type="radio" name="q192" value="c"> c) 667</label>
+                    <label><input type="radio" name="q192" value="d"> d) 800</label>
+                    <div class="feedback" id="feedback-q192"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 193: Để khởi động được hệ điều hành thì phân vùng chứa hệ điều hành đó phải là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q193" value="a"> a) Primary Partition</label>
+                    <label><input type="radio" name="q193" value="b"> b) Logical Partition</label>
+                    <label><input type="radio" name="q193" value="c"> c) NTFS Primary Partition</label>
+                    <label><input type="radio" name="q193" value="d"> d) Active Partition</label>
+                    <div class="feedback" id="feedback-q193"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 194: Sau khi cài đặt hoàn tất Driver, hệ thống bị lỗi dump (màn hình xanh) là do:</p>
+                <div class="options">
+                    <label><input type="radio" name="q194" value="a"> a) Hệ điều hành bị lỗi</label>
+                    <label><input type="radio" name="q194" value="b"> b) Driver không phù hợp</label>
+                    <label><input type="radio" name="q194" value="c"> c) Driver bị mất file</label>
+                    <label><input type="radio" name="q194" value="d"> d) Vi xử lý bị lỗi</label>
+                    <div class="feedback" id="feedback-q194"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 195: DDR2 SDRAM có tốc độ bus nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q195" value="a"> a) 266</label>
+                    <label><input type="radio" name="q195" value="b"> b) 333</label>
+                    <label><input type="radio" name="q195" value="c"> c) 400</label>
+                    <label><input type="radio" name="q195" value="d"> d) 533</label>
+                    <div class="feedback" id="feedback-q195"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 196: Tốc độ tối đa của chuẩn USB 2.0 là:</p>
+                <div class="options">
+                    <label><input type="radio" name="q196" value="a"> a) 1.5 Mbps</label>
+                    <label><input type="radio" name="q196" value="b"> b) 400 Mbps</label>
+                    <label><input type="radio" name="q196" value="c"> c) 480 Mbps</label>
+                    <label><input type="radio" name="q196" value="d"> d) 12 Mbps</label>
+                    <div class="feedback" id="feedback-q196"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 197: Công nghệ Dual Channel được ứng dụng cho thiết bị nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q197" value="a"> a) RAM</label>
+                    <label><input type="radio" name="q197" value="b"> b) CPU</label>
+                    <label><input type="radio" name="q197" value="c"> c) Mainboard</label>
+                    <label><input type="radio" name="q197" value="d"> c) HDD</label>
+                    <div class="feedback" id="feedback-q197"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 198: Các thông số cấu hình trong CMOS được duy trì bởi:</p>
+                <div class="options">
+                    <label><input type="radio" name="q198" value="a"> a) Bộ nguồn</label>
+                    <label><input type="radio" name="q198" value="b"> b) Pin CMOS</label>
+                    <label><input type="radio" name="q198" value="c"> c) Ổ đĩa cứng</label>
+                    <label><input type="radio" name="q198" value="d"> d) Chip Rom</label>
+                    <div class="feedback" id="feedback-q198"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 199: Bạn làm gì khi máy tính bị khóa mật khẩu CMOS?</p>
+                <div class="options">
+                    <label><input type="radio" name="q199" value="a"> a) Khởi động bằng Safe Mode</label>
+                    <label><input type="radio" name="q199" value="b"> b) Cài lại hệ điều hành</label>
+                    <label><input type="radio" name="q199" value="c"> c) Khởi động Last Known Good Config</label>
+                    <label><input type="radio" name="q199" value="d"> d) Clear CMOS</label>
+                    <div class="feedback" id="feedback-q199"></div>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>Câu 200: Chuẩn ATAPI dùng để kết nối chuẩn nào sau đây?</p>
+                <div class="options">
+                    <label><input type="radio" name="q200" value="a"> a) Tape</label>
+                    <label><input type="radio" name="q200" value="b"> b) HDD</label>
+                    <label><input type="radio" name="q200" value="c"> c) CDROM</label>
+                    <label><input type="radio" name="q200" value="d"> d) FDD</label>
+                    <div class="feedback" id="feedback-q200"></div>
+                </div>
+            </div>
+            
+            
+
+
+            <button type="button" class="submit-btn" onclick="submitQuiz()">Nộp bài</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script> <!-- Liên kết tệp JavaScript -->
+</body>
+</html>
