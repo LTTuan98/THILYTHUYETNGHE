@@ -71,3 +71,32 @@ function submitQuiz() {
         input.disabled = true;
     });
 }
+function resetQuiz() {
+    var form = document.getElementById("quiz-form");
+    var feedbackElements = document.querySelectorAll('.feedback');
+    
+    // Xóa tất cả các câu trả lời đã chọn
+    form.querySelectorAll('input[type="radio"]:checked').forEach(function(input) {
+        input.checked = false;
+    });
+
+    // Xóa tất cả các phản hồi và làm lại màu sắc ban đầu
+    feedbackElements.forEach(function(feedback) {
+        feedback.textContent = "";
+    });
+
+    // Bỏ tất cả các lớp đúng / sai khỏi các nhãn
+    var allLabels = form.querySelectorAll('label');
+    allLabels.forEach(function(label) {
+        label.classList.remove("correct", "incorrect");
+    });
+
+    // Enable lại tất cả các nút radio và nút gửi
+    form.querySelectorAll('input[type="radio"]').forEach(function(input) {
+        input.disabled = false;
+    });
+
+    var submitButton = document.querySelector(".submit-btn");
+    submitButton.disabled = false;  // Bật lại nút submit
+    submitButton.textContent = "Nộp bài";
+}

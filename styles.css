@@ -108,7 +108,7 @@ h1 {
     border: none;
     cursor: pointer;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 50px;
     transition: background-color 0.3s ease;
 }
 
@@ -145,7 +145,33 @@ label.incorrect {
     background-color: #fbe1e1;
     border-color: #e74c3c;
 }
+/* Nút Reset */
+.reset-btn {
+    position: fixed;
+    top: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    background-color: #0c9517; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
 
+.reset-btn:hover {
+    background-color: #0c8749;
+}
+
+/* Khi nút Reset bị vô hiệu hóa */
+.reset-btn:disabled {
+    background-color: #BDC3C7;
+    cursor: not-allowed;
+}
 
 
 /* Mobile (Điện thoại) */
@@ -170,6 +196,7 @@ label.incorrect {
     .submit-btn {
         padding: 12px 20px;
         font-size: 16px;
+        margin-top: 70px;
     }
 }
 
